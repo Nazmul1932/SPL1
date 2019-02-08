@@ -1,0 +1,2635 @@
+2	MailNews: Message Display
+1	Sidebar
+3	Passwords & Permissions
+4	Preferences
+3	Composer
+3	MailNews: Message Display
+3	Sidebar
+4	MailNews: Message Display
+3	Startup & Profiles
+4	Search
+3	MailNews: Message Display
+4	Sidebar
+3	Sidebar
+4	MailNews: Message Display
+5	MailNews: Message Display
+4	Preferences
+4	MailNews: General
+4	MailNews: Message Display
+3	MailNews: Message Display
+5	Download & File Handling
+5	MailNews: Message Display
+2	Preferences
+4	Startup & Profiles
+4	MailNews: Message Display
+5	Preferences
+3	MailNews: Message Display
+4	MailNews: Message Display
+4	MailNews: Message Display
+3	Search
+4	Preferences
+5	MailNews: Message Display
+3	MailNews: Message Display
+3	MailNews: Composition
+4	MailNews: Message Display
+3	Search
+5	Page Info
+4	MailNews: Message Display
+3	Startup & Profiles
+5	Composer
+2	MailNews: Message Display
+4	MailNews: Message Display
+2	MailNews: Message Display
+3	MailNews: Message Display
+5	MailNews: Message Display
+3	Search
+3	MailNews: Message Display
+3	MailNews: Message Display
+4	DOM Inspector
+2	DOM Inspector
+3	Composer
+4	Composer
+4	Preferences
+4	Preferences
+3	Sunbird Only
+3	Sunbird Only
+4	Sidebar
+2	DOM Inspector
+3	MailNews: Message Display
+4	Composer
+1	DOM Inspector
+2	Search
+2	MailNews: Message Display
+5	MailNews: Message Display
+4	MailNews: Message Display
+4	Passwords & Permissions
+2	DOM Inspector
+2	Sidebar
+4	MailNews: Message Display
+4	MailNews: Message Display
+3	Search
+5	MailNews: Message Display
+5	Page Info
+5	Page Info
+4	MailNews: Message Display
+4	Sunbird Only
+5	Sunbird Only
+4	MailNews: Message Display
+4	MailNews: Address Book & Contacts
+2	MailNews: Message Display
+4	Internal Components
+5	Preferences
+4	Sunbird Only
+4	Sunbird Only
+2	Sidebar
+4	MailNews: Message Display
+4	General
+5	Page Info
+5	Page Info
+4	Page Info
+4	MailNews: Message Display
+4	Sunbird Only
+2	DOM Inspector
+3	MailNews: Message Display
+2	Sidebar
+5	MailNews: Message Display
+4	Composer
+5	Preferences
+2	DOM Inspector
+4	Preferences
+4	Sunbird Only
+2	DOM Inspector
+4	MailNews: Message Display
+2	General
+2	Internal Components
+5	DOM Inspector
+5	Composer
+3	Composer
+2	Sidebar
+5	Sunbird Only
+5	Sunbird Only
+4	General
+4	Preferences
+3	Download & File Handling
+3	Composer
+4	MailNews: Message Display
+4	MailNews: Message Display
+3	Sidebar
+4	Page Info
+5	DOM Inspector
+2	DOM Inspector
+1	Composer
+2	DOM Inspector
+3	MailNews: Message Display
+4	MailNews: Message Display
+5	MailNews: Message Display
+2	Passwords & Permissions
+3	DOM Inspector
+4	DOM Inspector
+3	Preferences
+4	Sunbird Only
+3	MailNews: Message Display
+5	Sunbird Only
+4	Page Info
+2	Sidebar
+2	Preferences
+5	General
+2	Composer
+2	Passwords & Permissions
+3	General
+5	Sunbird Only
+3	Internal Components
+3	Sunbird Only
+2	Find In Page
+4	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+2	MailNews: Backend
+5	DOM Inspector
+3	Find In Page
+4	DOM Inspector
+4	General
+3	Composer
+4	Passwords & Permissions
+4	Sunbird Only
+5	MailNews: Message Display
+5	Page Info
+2	Composer
+4	Composer
+5	Sunbird Only
+4	Sunbird Only
+2	MailNews: Backend
+2	MailNews: Message Display
+5	General
+5	Preferences
+4	Sunbird Only
+5	Sunbird Only
+4	General
+4	MailNews: Message Display
+2	Composer
+4	Sunbird Only
+4	Composer
+2	Find In Page
+2	Search
+2	MailNews: Message Display
+4	Composer
+4	Sunbird Only
+3	Preferences
+3	Passwords & Permissions
+4	Sunbird Only
+5	MailNews: Address Book & Contacts
+2	Find In Page
+4	MailNews: Message Display
+3	General
+5	MailNews: Message Display
+5	Sunbird Only
+4	General
+4	MailNews: Message Display
+3	Composer
+4	Sunbird Only
+4	Sunbird Only
+2	MailNews: Backend
+5	Sunbird Only
+3	Passwords & Permissions
+4	General
+3	General
+2	DOM Inspector
+2	Passwords & Permissions
+4	Startup & Profiles
+3	General
+5	Sunbird Only
+3	MailNews: Backend
+2	General
+3	Page Info
+3	Composer
+2	Help
+3	General
+4	General
+2	DOM Inspector
+2	General
+5	MailNews: Message Display
+4	General
+5	Sunbird Only
+3	Passwords & Permissions
+5	MailNews: Address Book & Contacts
+3	MailNews: Message Display
+4	MailNews: Message Display
+5	Sunbird Only
+4	Sunbird Only
+3	General
+4	General
+1	Sunbird Only
+2	General
+2	General
+3	Preferences
+3	General
+1	Internal Components
+4	MailNews: Message Display
+3	General
+4	Calendar Views
+4	MailNews: Message Display
+4	Preferences
+2	MailNews: Message Display
+2	Sunbird Only
+3	General
+3	Sunbird Only
+2	DOM Inspector
+2	MailNews: Message Display
+3	Sunbird Only
+3	Search
+1	General
+5	Download & File Handling
+2	DOM Inspector
+2	General
+3	General
+4	Sunbird Only
+3	General
+2	MailNews: Message Display
+5	Sunbird Only
+4	Sunbird Only
+3	Sunbird Only
+5	Sunbird Only
+4	Sunbird Only
+5	MailNews: Message Display
+3	Composer
+3	Sunbird Only
+1	MailNews: Message Display
+3	MailNews: Message Display
+3	MailNews: Message Display
+4	Sunbird Only
+3	General
+3	General
+3	MailNews: Message Display
+5	MailNews: Message Display
+5	MailNews: Message Display
+3	MailNews: Message Display
+3	General
+5	Download & File Handling
+3	MailNews: Message Display
+4	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+5	General
+3	General
+3	Composer
+5	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+3	General
+5	Download & File Handling
+4	Sunbird Only
+3	General
+3	General
+5	MailNews: Message Display
+3	MailNews: Message Display
+5	General
+5	MailNews: Message Display
+3	MailNews: Message Display
+3	General
+4	DOM Inspector
+5	MailNews: Message Display
+4	Find In Page
+5	MailNews: Address Book & Contacts
+3	Alarms
+4	Help
+4	Page Info
+5	MailNews: Message Display
+2	MailNews: Message Display
+3	General
+5	Sidebar
+3	General
+3	Download & File Handling
+5	MailNews: Address Book & Contacts
+3	General
+2	General
+5	Download & File Handling
+5	MailNews: Address Book & Contacts
+2	Download & File Handling
+3	Composer
+4	Composer
+4	MailNews: Message Display
+5	Composer
+4	MailNews: Message Display
+3	MailNews: Message Display
+3	General
+3	Internal Components
+3	Download & File Handling
+3	Sidebar
+5	Passwords & Permissions
+2	Find In Page
+3	Search
+4	DOM Inspector
+3	Composer
+1	MailNews: Message Display
+5	Sunbird Only
+2	MailNews: Address Book & Contacts
+2	MailNews: Message Display
+3	MailNews: Message Display
+3	DOM Inspector
+3	General
+3	General
+3	General
+2	Preferences
+4	MailNews: Address Book & Contacts
+4	Composer
+4	Page Info
+5	Page Info
+5	Page Info
+2	Composer
+2	MailNews: Address Book & Contacts
+3	MailNews: Message Display
+2	MailNews: Message Display
+5	General
+4	Sunbird Only
+4	Composer
+3	MailNews: Address Book & Contacts
+3	MailNews: Address Book & Contacts
+2	MailNews: Message Display
+5	Composer
+3	Composer
+4	MailNews: Address Book & Contacts
+4	Sidebar
+2	Download & File Handling
+2	General
+4	MailNews: Backend
+2	MailNews: Message Display
+2	MailNews: Address Book & Contacts
+5	MailNews: Message Display
+3	Sunbird Only
+1	Composer
+3	MailNews: Message Display
+3	General
+2	DOM Inspector
+5	Preferences
+2	Download & File Handling
+4	General
+5	Passwords & Permissions
+4	Sunbird Only
+4	MailNews: Message Display
+5	Composer
+5	MailNews: Message Display
+3	Sidebar
+3	MailNews: Message Display
+5	MailNews: Message Display
+5	MailNews: Message Display
+4	Composer
+2	MailNews: Backend
+4	Download & File Handling
+2	Composer
+5	Composer
+3	MailNews: Message Display
+3	Search
+4	MailNews: Message Display
+4	General
+5	Composer
+3	MailNews: Message Display
+5	Composer
+5	MailNews: Message Display
+4	DOM Inspector
+5	Startup & Profiles
+3	Search
+3	General
+3	Internal Components
+5	MailNews: Message Display
+5	Composer
+3	Preferences
+1	General
+3	Internal Components
+5	Search
+2	General
+4	Sunbird Only
+5	Page Info
+3	General
+4	General
+4	Preferences
+5	MailNews: Message Display
+4	General
+4	Search
+5	General
+5	DOM Inspector
+3	MailNews: Address Book & Contacts
+2	General
+2	General
+1	General
+5	Preferences
+3	Composer
+5	General
+5	General
+4	Sunbird Only
+5	Page Info
+5	MailNews: Address Book & Contacts
+3	General
+4	MailNews: Message Display
+3	Startup & Profiles
+4	MailNews: Address Book & Contacts
+2	Download & File Handling
+4	Composer
+5	MailNews: Message Display
+4	Venkman JS Debugger
+1	Composer
+4	Sunbird Only
+4	Page Info
+4	Sunbird Only
+3	MailNews: Message Display
+4	Preferences
+4	Startup & Profiles
+3	MailNews: Backend
+3	General
+4	General
+2	DOM Inspector
+4	MailNews: Address Book & Contacts
+3	General
+4	General
+4	MailNews: Address Book & Contacts
+4	General
+5	Download & File Handling
+4	Preferences
+4	Sunbird Only
+4	Startup & Profiles
+4	General
+3	MailNews: Message Display
+3	MailNews: Message Display
+2	General
+3	Composer
+3	Internal Components
+5	Composer
+4	MailNews: Message Display
+5	Sunbird Only
+3	MailNews: Message Display
+2	DOM Inspector
+2	MailNews: Message Display
+4	MailNews: Backend
+3	Download & File Handling
+3	Download & File Handling
+2	Find In Page
+5	Sunbird Only
+3	General
+4	Sunbird Only
+3	Internal Components
+3	MailNews: Message Display
+5	MailNews: Address Book & Contacts
+4	Sunbird Only
+4	Help
+4	Sunbird Only
+4	MailNews: Message Display
+4	Internal Components
+3	General
+5	Preferences
+3	MailNews: Message Display
+4	Sunbird Only
+3	Composer
+3	General
+4	Sunbird Only
+4	Sunbird Only
+4	Composer
+4	Sunbird Only
+3	Passwords & Permissions
+2	General
+3	Download & File Handling
+2	General
+3	General
+3	MailNews: Message Display
+3	Provider: ICS/WebDAV
+3	General
+3	MailNews: Address Book & Contacts
+3	General
+3	Sunbird Only
+5	MailNews: Message Display
+3	MailNews: Message Display
+5	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+4	Preferences
+3	General
+5	Composer
+4	Sunbird Only
+5	Preferences
+4	Website
+5	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+5	Sunbird Only
+5	MailNews: Address Book & Contacts
+4	Sunbird Only
+5	Sunbird Only
+4	Page Info
+4	Page Info
+5	Composer
+2	MailNews: Address Book & Contacts
+4	Website
+4	Sunbird Only
+3	Venkman JS Debugger
+2	DOM Inspector
+3	Preferences
+5	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+4	Website
+2	Sunbird Only
+4	Sunbird Only
+2	Find In Page
+4	MailNews: Message Display
+3	General
+4	MailNews: Message Display
+5	Sunbird Only
+1	Sunbird Only
+4	MailNews: Message Display
+2	General
+4	MailNews: Message Display
+4	MailNews: Message Display
+4	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+4	Download & File Handling
+5	General
+2	Sunbird Only
+4	Sunbird Only
+4	Sunbird Only
+4	Composer
+4	MailNews: Address Book & Contacts
+4	Sunbird Only
+4	MailNews: Address Book & Contacts
+3	Composer
+4	Sunbird Only
+4	Venkman JS Debugger
+3	General
+5	Sunbird Only
+4	General
+5	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+4	Website
+4	Sunbird Only
+5	Sunbird Only
+4	Sunbird Only
+4	Page Info
+3	Sunbird Only
+2	Sunbird Only
+4	Sunbird Only
+5	MailNews: Message Display
+5	MailNews: Message Display
+5	MailNews: Message Display
+4	Preferences
+4	Sunbird Only
+3	MailNews: Message Display
+4	Sunbird Only
+2	Sunbird Only
+5	Sunbird Only
+5	Preferences
+5	Sunbird Only
+5	MailNews: Address Book & Contacts
+4	Sunbird Only
+5	General
+4	Sunbird Only
+5	Sunbird Only
+5	Preferences
+4	General
+5	Sunbird Only
+3	General
+4	Sunbird Only
+4	Sunbird Only
+5	Sunbird Only
+4	Sunbird Only
+4	MailNews: Message Display
+4	MailNews: Message Display
+2	DOM Inspector
+4	Venkman JS Debugger
+5	General
+2	Internal Components
+4	General
+4	Preferences
+5	Help
+5	General
+5	General
+4	MailNews: Message Display
+4	MailNews: Address Book & Contacts
+5	Sunbird Only
+4	Sunbird Only
+1	Internal Components
+2	Internal Components
+5	Help
+3	Help
+4	Sunbird Only
+1	Internal Components
+5	DOM Inspector
+4	Sunbird Only
+2	Preferences
+3	DOM Inspector
+5	Help
+4	Sunbird Only
+5	Help
+5	General
+3	Sunbird Only
+3	Sunbird Only
+5	Sunbird Only
+5	Help
+3	Sunbird Only
+4	Sunbird Only
+4	Venkman JS Debugger
+5	Venkman JS Debugger
+2	MailNews: Message Display
+4	Preferences
+4	Sunbird Only
+5	Sunbird Only
+4	Sunbird Only
+1	Internal Components
+4	Sunbird Only
+4	Sunbird Only
+2	Search
+4	Sunbird Only
+4	Sunbird Only
+5	Internal Components
+1	MailNews: Address Book & Contacts
+4	Help
+5	Sunbird Only
+5	Sunbird Only
+2	Security
+2	DOM Inspector
+4	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+5	Sunbird Only
+3	General
+5	Internal Components
+5	Sunbird Only
+5	MailNews: Message Display
+2	Find In Page
+3	Lightning Only
+3	Lightning Only
+3	Sunbird Only
+2	MailNews: Message Display
+1	Internal Components
+1	Internal Components
+4	General
+3	MailNews: Message Display
+3	Download & File Handling
+4	Preferences
+4	Website
+2	Internal Components
+5	Sunbird Only
+4	Help
+3	Internal Components
+3	Find In Page
+2	Internal Components
+3	Sunbird Only
+3	MailNews: Message Display
+4	Preferences
+4	Preferences
+5	MailNews: Message Display
+4	DOM Inspector
+4	Internal Components
+5	Help
+4	Reporter
+2	MailNews: Message Display
+4	Website
+3	Lightning Only
+5	MailNews: Message Display
+3	Reporter
+4	MailNews: Message Display
+3	Provider: CalDAV
+4	Provider: CalDAV
+5	Provider: CalDAV
+5	Help
+2	Sunbird Only
+3	General
+4	Passwords & Permissions
+5	Sunbird Only
+3	Sunbird Only
+4	Sunbird Only
+3	General
+4	Sunbird Only
+3	MailNews: Message Display
+2	Internal Components
+4	General
+3	General
+5	Sunbird Only
+4	Sunbird Only
+3	Sunbird Only
+5	Help
+3	Internal Components
+5	Sunbird Only
+3	Sunbird Only
+3	Internal Components
+3	Internal Components
+3	Calendar Views
+3	Download & File Handling
+3	MailNews: Message Display
+1	General
+4	Help
+5	General
+5	Sunbird Only
+5	MailNews: Message Display
+3	Internal Components
+2	Internal Components
+4	General
+3	Sidebar
+3	Passwords & Permissions
+5	Sunbird Only
+4	Sunbird Only
+2	Venkman JS Debugger
+3	Sidebar
+3	MailNews: Message Display
+3	DOM Inspector
+5	Help
+5	Sunbird Only
+5	Sunbird Only
+4	Internal Components
+3	Sunbird Only
+5	Sunbird Only
+3	Internal Components
+4	Preferences
+4	Security
+4	MailNews: Message Display
+3	Internal Components
+3	MailNews: Message Display
+2	Internal Components
+4	Internal Components
+3	Lightning Only
+4	Sunbird Only
+2	Lightning Only
+4	Calendar Views
+4	Internal Components
+5	General
+3	Internal Components
+4	Internal Components
+3	Calendar Views
+5	Internal Components
+4	Sunbird Only
+2	Internal Components
+2	Provider: ICS/WebDAV
+3	Internal Components
+3	Lightning Only
+3	Lightning Only
+3	MailNews: Message Display
+4	Lightning Only
+4	Internal Components
+3	General
+4	Internal Components
+5	Internal Components
+5	Sunbird Only
+4	Internal Components
+3	Sunbird Only
+1	DOM Inspector
+4	General
+5	Internal Components
+4	Lightning Only
+4	Search
+4	Help
+3	CCK
+5	Sunbird Only
+3	Startup & Profiles
+3	General
+4	Website
+3	Lightning Only
+5	General
+5	Provider: Local Storage
+3	Import and Export
+4	Venkman JS Debugger
+4	Preferences
+4	General
+4	Preferences
+5	Internal Components
+3	Internal Components
+3	CCK
+4	Sunbird Only
+5	Sunbird Only
+4	General
+4	General
+5	MailNews: Message Display
+4	CCK
+3	CCK
+5	Sunbird Only
+3	Internal Components
+5	Lightning Only
+4	Help
+4	Internal Components
+3	MailNews: Message Display
+4	DOM Inspector
+2	MailNews: Message Display
+4	DOM Inspector
+3	Lightning Only
+3	MailNews: Message Display
+4	Passwords & Permissions
+3	General
+5	DOM Inspector
+3	MailNews: Message Display
+5	Preferences
+5	Help
+2	Find In Page
+4	Internal Components
+4	Sunbird Only
+4	Calendar Views
+4	General
+3	Calendar Views
+3	MailNews: Message Display
+5	General
+3	Build Config
+3	Printing
+3	Printing
+3	Printing
+3	Sunbird Only
+2	Search
+3	Tasks
+5	Reporter
+5	DOM Inspector
+3	Reporter
+2	DOM Inspector
+1	Lightning Only
+5	General
+3	Tasks
+5	Calendar Views
+5	Tasks
+5	Printing
+5	MailNews: Message Display
+4	Venkman JS Debugger
+5	MailNews: Message Display
+4	Calendar Views
+3	General
+5	MailNews: Message Display
+4	DOM Inspector
+4	DOM Inspector
+4	Alarms
+4	Internal Components
+3	Internal Components
+4	Calendar Views
+2	General
+4	Calendar Views
+3	Import and Export
+5	Website
+5	Help
+4	General
+5	Lightning Only
+4	Calendar Views
+4	Tabbed Editor
+5	Help
+3	General
+2	Provider: ICS/WebDAV
+4	General
+4	Preferences
+3	Provider: CalDAV
+5	Search
+4	DOM Inspector
+5	DOM Inspector
+2	Sunbird Only
+4	Dialogs
+4	Dialogs
+4	Dialogs
+4	MailNews: Message Display
+2	Calendar Views
+5	MailNews: Message Display
+5	Sidebar
+5	Calendar Views
+4	Sunbird Only
+5	Website
+5	Import and Export
+4	General
+3	General
+5	Internal Components
+4	Import and Export
+4	MailNews: Message Display
+2	Calendar Views
+5	DOM Inspector
+3	General
+3	Provider: ICS/WebDAV
+2	Internal Components
+4	General
+3	General
+5	Website
+3	Provider: ICS/WebDAV
+4	Sunbird Only
+2	Provider: CalDAV
+3	MailNews: Message Display
+5	Preferences
+4	Help
+2	MailNews: Message Display
+5	Internal Components
+4	Website
+5	General
+4	E-mail based Scheduling (iTIP/iMIP)
+4	MailNews: Address Book & Contacts
+3	CCK
+5	Website
+5	Sunbird Only
+3	Lightning Only
+5	Provider: GData
+4	Venkman JS Debugger
+5	Calendar Views
+5	MailNews: Message Display
+3	Passwords & Permissions
+5	Provider: GData
+5	Provider: GData
+3	Startup & Profiles
+3	XUL Explorer
+3	MailNews: Message Display
+2	DOM Inspector
+3	MailNews: Message Display
+1	Startup & Profiles
+3	Sidebar
+3	DOM Inspector
+3	Startup & Profiles
+3	Startup & Profiles
+4	Provider: GData
+3	Provider: CalDAV
+2	Security
+3	Preferences
+3	Internal Components
+3	Lightning Only
+3	DOM Inspector
+3	Reporter
+5	Calendar Views
+3	Alarms
+2	Venkman JS Debugger
+2	Startup & Profiles
+4	Lightning Only
+4	Preferences
+3	Lightning Only
+2	Security
+3	Download & File Handling
+5	DOM Inspector
+3	Dialogs
+5	Internal Components
+5	Dialogs
+1	DOM Inspector
+4	Lightning Only
+5	Build Config
+4	Startup & Profiles
+1	McCoy
+3	Lightning Only
+3	Provider: GData
+4	Internal Components
+5	DOM Inspector
+3	Sunbird Only
+2	Venkman JS Debugger
+4	Dialogs
+3	General
+3	Preferences
+4	Provider: GData
+3	MailNews: Message Display
+3	Internal Components
+4	Search
+4	Startup & Profiles
+4	Dialogs
+3	Import and Export
+4	General
+4	Website
+3	Provider: GData
+3	General
+5	General
+4	General
+3	General
+3	Preferences
+3	General
+4	Page Info
+3	General
+4	Provider: CalDAV
+1	General
+4	Calendar Views
+2	Provider: ICS/WebDAV
+4	Help
+4	Help
+4	General
+2	Provider: CalDAV
+4	General
+4	Build Config
+4	Calendar Views
+3	Internal Components
+4	MailNews: Message Display
+2	Internal Components
+1	Internal Components
+3	Reporter
+4	Calendar Views
+3	Provider: CalDAV
+5	Alarms
+3	Lightning Only
+5	General
+2	General
+3	Build Config
+4	Preferences
+5	Dialogs
+4	General
+2	General
+2	General
+4	XUL Explorer
+5	DOM Inspector
+4	Help
+4	General
+5	Help
+3	Lightning Only
+4	Calendar Views
+3	Import and Export
+4	Printing
+4	Website
+3	Internal Components
+3	E-mail based Scheduling (iTIP/iMIP)
+5	General
+3	Provider: GData
+5	Provider: GData
+3	General
+4	Build Config
+5	General
+5	Security
+3	OS Integration
+5	Help
+4	Provider: GData
+3	CCK
+3	Provider: CalDAV
+1	General
+5	Preferences
+4	General
+3	General
+1	General
+3	Provider: CalDAV
+4	Tasks
+5	General
+1	General
+3	Provider: CalDAV
+5	Composer
+4	Venkman JS Debugger
+4	Provider: GData
+3	Provider: CalDAV
+2	Composer
+5	Provider: GData
+5	MailNews: Message Display
+4	Internal Components
+3	General
+2	General
+4	General
+5	Help
+3	General
+3	General
+3	Search
+2	General
+4	Tasks
+5	Startup & Profiles
+3	General
+3	General
+4	Tasks
+3	General
+3	General
+3	General
+5	Preferences
+2	General
+3	General
+4	General
+3	General
+4	General
+5	Page Info
+3	General
+4	Preferences
+5	Download & File Handling
+3	Provider: CalDAV
+4	General
+3	MailNews: Address Book & Contacts
+3	General
+4	Calendar Views
+4	Calendar Views
+3	General
+5	Composer
+3	General
+4	Preferences
+5	Sunbird Only
+5	Composer
+5	DOM Inspector
+3	MailNews: Composition
+4	General
+2	General
+4	General
+3	Provider: GData
+3	General
+3	Provider: Local Storage
+3	E-mail based Scheduling (iTIP/iMIP)
+3	Provider: ICS/WebDAV
+3	General
+5	Calendar Views
+4	Lightning Only
+5	General
+3	General
+1	Build Config
+4	General
+3	General
+4	Lightning Only
+4	Build Config
+3	Calendar Views
+4	Help
+4	Help
+4	Help
+5	Help
+4	Page Info
+4	General
+3	Venkman JS Debugger
+3	Lightning Only
+2	Build Config
+5	Passwords & Permissions
+4	Sunbird Only
+4	General
+5	General
+3	DOM Inspector
+3	General
+4	XUL Explorer
+3	Lightning Only
+4	MailNews: Message Display
+2	General
+5	Calendar Views
+3	Venkman JS Debugger
+5	MailNews: Message Display
+4	Preferences
+4	Calendar Views
+3	Find In Page
+5	General
+3	Download & File Handling
+2	General
+3	DOM Inspector
+4	Provider: GData
+3	MailNews: Composition
+2	Venkman JS Debugger
+2	General
+3	General
+3	General
+3	Lightning Only
+3	General
+2	General
+4	Dialogs
+3	General
+4	Help
+3	General
+3	General
+4	Help
+3	Lightning Only
+4	Lightning Only
+1	Alarms
+3	Alarms
+3	MailNews: Message Display
+5	Alarms
+4	Provider: GData
+5	General
+2	Alarms
+2	E-mail based Scheduling (iTIP/iMIP)
+2	Provider: GData
+1	General
+3	CCK
+4	Session Restore
+4	Sunbird Only
+3	MailNews: Message Display
+4	General
+3	Internal Components
+2	General
+2	General
+4	General
+2	General
+4	Firefox Sync: Backend
+1	General
+4	Help
+3	General
+3	Firefox Sync: Backend
+5	Lightning Only
+3	Venkman JS Debugger
+4	Build Config
+3	Sunbird Only
+4	General
+3	General
+4	General
+2	General
+3	General
+3	Session Restore
+3	Server: Sync
+3	E-mail based Scheduling (iTIP/iMIP)
+2	CCK
+2	XUL Explorer
+4	Internal Components
+4	Internal Components
+3	Provider: WCAP
+2	Download & File Handling
+4	Help
+3	Alarms
+5	Calendar Views
+5	General
+3	Dialogs
+2	MailNews: Backend
+3	Release Engineering
+3	Release Engineering
+5	Calendar Views
+4	E-mail based Scheduling (iTIP/iMIP)
+3	Alarms
+4	MailNews: Message Display
+5	Download & File Handling
+5	Sunbird Only
+5	Download & File Handling
+2	General
+4	General
+4	Website
+4	Dialogs
+3	XUL Explorer
+4	DOM Inspector
+3	Venkman JS Debugger
+5	DOM Inspector
+5	Download & File Handling
+3	MailNews: General
+3	MailNews: General
+3	General
+4	General
+5	Lightning Only
+5	MailNews: General
+4	MailNews: Message Display
+3	Server: Sync
+4	Download & File Handling
+3	Session Restore
+4	Help
+4	Help
+4	MailNews: General
+4	Search
+5	MailNews: Message Display
+5	MailNews: Backend
+5	Dialogs
+4	Website
+2	Release Engineering
+1	Security
+5	Preferences
+4	Tasks
+4	Lightning Only
+4	Server: Sync
+4	MailNews: General
+4	General
+2	Firefox Sync: Backend
+4	Preferences
+4	Help
+4	MailNews: General
+4	MailNews: Message Display
+5	General
+3	Session Restore
+2	Firefox Sync: Backend
+5	General
+5	Printing
+4	Lightning Only
+5	Venkman JS Debugger
+3	Provider: CalDAV
+4	Session Restore
+3	Provider: CalDAV
+4	MailNews: Composition
+2	Calendar Views
+5	Dialogs
+1	Preferences
+4	Session Restore
+3	Firefox Sync: UI
+3	XUL Explorer
+5	MailNews: Message Display
+4	Project Organization
+2	Narcissus
+3	MailNews: Message Display
+4	Help
+2	Release Engineering
+3	Lightning Only
+5	Page Info
+2	XUL Explorer
+3	Server: Sync
+3	Firefox Sync: Backend
+3	General
+2	Firefox Sync: UI
+4	Download & File Handling
+4	Calendar Views
+2	DOM Inspector
+5	MailNews: General
+4	Dialogs
+3	Firefox Sync: UI
+3	Tasks
+2	Provider: WCAP
+3	Provider: Local Storage
+4	Firefox Sync: UI
+4	DOM Inspector
+2	Provider: Local Storage
+3	Firefox Sync: Backend
+3	DOM Inspector
+4	General
+5	Feed Discovery and Preview
+3	Build Config
+3	General
+3	DOM Inspector
+3	Server: Sync
+3	General
+4	Firefox Sync: UI
+1	Sunbird Only
+1	Build Config
+3	Firefox Sync: UI
+5	Preferences
+4	Calendar Views
+3	MailNews: Message Display
+3	Firefox Sync: UI
+3	MailNews: Message Display
+3	DOM Inspector
+2	General
+3	Venkman JS Debugger
+4	MailNews: Message Display
+5	MailNews: Message Display
+1	Build Config
+5	DOM Inspector
+3	Firefox Sync: Backend
+3	Provider: CalDAV
+1	Build Config
+5	MailNews: General
+3	MailNews: Address Book & Contacts
+5	Help
+5	MailNews: General
+5	Calendar Views
+4	MailNews: General
+4	Web Site
+4	Firefox Sync: Backend
+4	Firefox Sync: UI
+3	Firefox Sync: Backend
+4	Server: Sync
+5	DOM Inspector
+5	Firefox Sync: Backend
+3	Calendar Views
+3	Lightning Only
+4	DOM Inspector
+5	DOM Inspector
+5	General
+2	Release Engineering
+2	General
+5	DOM Inspector
+2	Release Engineering
+4	Download & File Handling
+4	Lightning Only
+4	Dialogs
+3	Firefox Sync: Backend
+5	Firefox Sync: Backend
+3	Firefox Sync: Backend
+4	Internal Components
+3	Dialogs
+2	General
+4	Website
+4	Build Config
+2	Firefox Sync: Backend
+4	Firefox Sync: Backend
+3	Import and Export
+2	General
+3	Feed Discovery and Preview
+4	Dialogs
+5	Provider: CalDAV
+3	General
+3	Help
+1	Internal Components
+3	General
+5	Lightning Only
+3	Firefox Sync: UI
+4	Dialogs
+1	Server: Sync
+4	Server: Sync
+3	Firefox Sync: UI
+2	Server: Sync
+4	Firefox Sync: UI
+2	General
+3	Firefox Sync: UI
+3	Provider: GData
+4	Download & File Handling
+5	Firefox Sync: UI
+4	General
+4	Firefox Sync: Backend
+2	General
+5	Build Config
+3	Dialogs
+3	DOM Inspector
+5	MailNews: General
+3	General
+3	Project Organization
+3	MailNews: General
+2	Firefox Home
+4	Narcissus
+3	Web Site
+4	Narcissus
+5	Firefox Sync: UI
+2	Web Site
+2	Lightning Only
+1	Firefox Sync: UI
+2	Provider: CalDAV
+5	Web Site
+1	Internal Components
+5	Firefox Sync: Backend
+4	Narcissus
+3	Sunbird Only
+1	Firefox Sync: UI
+3	Provider: CalDAV
+4	Help
+4	Help
+5	Website
+4	Build Config
+5	Firefox Sync: UI
+3	Find In Page
+5	DOM Inspector
+5	General
+1	Internal Components
+4	DOM Inspector
+4	Narcissus
+4	Narcissus
+4	DOM Inspector
+3	Provider: CalDAV
+1	Release Engineering
+4	Import and Export
+3	Web Site
+3	Import and Export
+2	Internal Components
+3	General
+5	Narcissus
+1	Build Config
+2	Server: Sync
+3	MailNews: Message Display
+1	Release Engineering
+2	Release Engineering
+3	Passwords & Permissions
+3	Server: Sync
+3	Server: Sync
+4	Firefox Sync: UI
+5	Preferences
+3	Release Engineering
+3	Operations
+3	Firefox Sync: UI
+5	MailNews: Address Book & Contacts
+5	Website
+5	Firefox Sync: Crypto
+5	MailNews: Address Book & Contacts
+5	Help
+2	General
+4	Operations
+4	Lightning Only
+1	Release Engineering
+2	Operations
+5	Server: Registration
+1	Release Engineering
+3	Provider: CalDAV
+3	Operations
+3	Operations
+4	Search
+5	MailNews: Composition
+2	Release Engineering
+1	Provider: GData
+1	Firefox Sync: Crypto
+1	Internal Components
+3	Operations
+4	Sidebar
+4	MailNews: General
+4	Preferences
+5	DOM Inspector
+4	Calendar Views
+4	MailNews: Message Display
+3	Firefox Sync: Backend
+4	Narcissus
+5	Firefox Sync: Backend
+2	Server: Other
+2	Server: Key Exchange
+3	Operations
+3	Sidebar
+3	Firefox Sync: UI
+1	Operations
+1	Server: Sync
+5	Build Config
+2	Server: Key Exchange
+5	Release Engineering
+2	Venkman JS Debugger
+1	Server: Sync
+1	Build Config
+2	Server: Key Exchange
+3	Release Engineering
+3	Release Engineering
+5	Tasks
+3	MailNews: General
+2	Firefox Home
+5	Release Engineering
+2	Firefox Sync: UI
+3	Release Engineering
+2	Operations
+1	Internal Components
+3	Server: Sync
+1	Operations
+3	MailNews: Message Display
+3	Server: Core
+5	Sunbird Only
+3	Server: Core
+2	Release Engineering
+5	Dialogs
+1	Documentation
+3	Operations
+5	Build Config
+2	Release Engineering
+1	Project Organization
+2	Server: Core
+3	OS Integration
+2	Firefox Sync: Backend
+5	Lightning Only
+3	E-mail based Scheduling (iTIP/iMIP)
+5	Dialogs
+2	Operations
+3	Narcissus
+1	Server: Registration
+4	Server: Account Portal
+5	Calendar Views
+4	Documentation
+3	MailNews: General
+5	Server: Account Portal
+5	Server: Account Portal
+5	Server: Account Portal
+5	DOM Inspector
+3	Operations
+3	Operations
+3	Operations
+4	MailNews: General
+3	Server: Account Portal
+5	Documentation
+2	Release Engineering
+4	DOM Inspector
+1	Operations
+3	Release Engineering
+2	Firefox Sync: Crypto
+2	Server: Sync
+1	Project Organization
+2	Release Engineering
+2	Server: Identity
+2	Release Engineering
+3	Server: Core
+4	Server: Sync
+2	Release Engineering
+5	MailNews: General
+3	Documentation
+1	Server: Account Portal
+1	Server: Registration
+3	MailNews: Address Book & Contacts
+3	Firefox Sync: Backend
+2	Release Engineering
+1	Project Organization
+3	Lightning Only
+3	Composer
+4	Dialogs
+5	Dialogs
+5	Printing
+3	Printing
+1	MailNews: Message Display
+5	DOM Inspector
+4	Firefox Sync: Backend
+5	DOM Inspector
+4	MailNews: Composition
+3	Narcissus
+3	Passwords & Permissions
+2	Release Engineering
+3	Passwords & Permissions
+2	Server: Sync
+3	Composer
+3	Operations
+2	Release Engineering
+3	Passwords & Permissions
+3	Operations
+1	Server: Sync
+3	Provider: WCAP
+2	E-mail based Scheduling (iTIP/iMIP)
+4	Firefox Sync: Backend
+1	Release Engineering
+2	Release Engineering
+2	Release Engineering
+2	Release Engineering
+2	Server: Sync
+4	Sync UI
+5	Calendar Views
+3	MailNews: Address Book & Contacts
+3	MailNews: Message Display
+4	Documentation
+3	Build Config
+1	Build Config
+4	MailNews: Address Book & Contacts
+2	Alarms
+5	DOM Inspector
+2	Server: Sync
+2	Release Engineering
+2	Server: Sync
+2	Release Engineering
+2	General
+3	Build Config
+2	Release Engineering
+2	Release Engineering
+3	Provider: WCAP
+2	Release Engineering
+5	Server: Core
+2	Server: Account Portal
+4	Firefox Sync: UI
+3	Operations: Marketplace
+2	Build Config
+2	Release Engineering
+2	Release Engineering
+2	Release Engineering
+5	General
+2	Release Engineering
+2	Release Engineering
+2	Release Engineering
+5	Server: Registration
+5	Server: Registration
+4	Build Config
+4	Sync UI
+2	Release Engineering
+5	Dialogs
+2	Operations
+2	Release Engineering
+2	Release Engineering
+2	Release Engineering
+5	Calendar Views
+3	Feed Discovery and Preview
+5	Build Config
+2	Release Engineering
+3	Operations
+2	Firefox Sync: Backend
+3	MailNews: Address Book & Contacts
+2	Release Engineering
+3	Firefox Sync: Backend
+2	Release Engineering
+3	Lightning Only
+5	Sync UI
+2	Operations
+5	Firefox Sync: Backend
+2	Release Engineering
+3	Alarms
+4	Firefox Sync: Backend
+2	Release Engineering
+2	Release Engineering
+4	Documentation
+2	Release Engineering
+2	Operations: Metrics/Monitoring
+2	Release Engineering
+1	Android Sync
+2	Android Sync
+2	Release Engineering
+2	Release Engineering
+2	Android Sync
+2	Release Engineering
+2	Release Engineering
+3	Documentation
+2	Release Engineering
+1	General
+3	Operations: Metrics/Monitoring
+2	Release Engineering
+4	Provider: CalDAV
+3	Lightning Only
+2	Android Sync
+2	Release Engineering
+3	Sync UI
+3	Android Sync
+1	Android Sync
+3	E-mail based Scheduling (iTIP/iMIP)
+3	E-mail based Scheduling (iTIP/iMIP)
+4	Venkman JS Debugger
+1	Release Engineering
+2	Calendar Views
+1	Release Engineering
+1	Release Engineering
+4	Reporter
+4	Reporter
+4	Reporter
+2	Release Engineering
+4	Operations: Marketplace
+2	General
+2	E-mail based Scheduling (iTIP/iMIP)
+1	Release Engineering
+2	Keyboards and IME
+1	Release Engineering
+1	Release Engineering
+4	Session Restore
+4	Operations: Marketplace
+5	Firefox Sync: UI
+1	Release Engineering
+1	Release Engineering
+3	Operations: Marketplace
+3	Server: Core
+3	Operations: Marketplace
+1	Release Engineering
+5	Calendar Views
+3	Operations: Marketplace
+3	Provider: CalDAV
+1	Release Engineering
+2	Keyboards and IME
+1	Release Engineering
+1	Release Engineering
+3	Android Sync
+1	General
+3	Release Engineering
+4	Sync UI
+1	Release Engineering
+2	Keyboards and IME
+4	Sync UI
+4	MailNews: General
+4	Sunbird Only
+1	Release Engineering
+4	Operations
+1	Server: Other
+3	Firefox Sync: Backend
+2	Operations: Marketplace
+4	Android Sync
+1	Release Engineering
+5	Dialogs
+1	Sync UI
+3	Release Engineering
+1	Build Config
+4	Operations: Marketplace
+2	Operations: Marketplace
+3	Release Engineering
+1	Release Engineering
+1	Firefox Sync: Backend
+1	DOM Inspector
+1	Release Engineering
+1	Release Engineering
+1	Release Engineering
+4	Operations: Marketplace
+2	Provider: Local Storage
+1	General
+1	Provider: Local Storage
+5	Session Restore
+2	Graphics, Panning and Zooming
+3	Operations
+1	Release Engineering
+5	Documentation
+3	Android Sync
+1	General
+1	Provider: CalDAV
+3	Operations: Marketplace
+1	Internal Components
+3	Operations
+4	Keyboards and IME
+1	Release Engineering
+1	Provider: GData
+2	Alarms
+3	Printing
+5	Firefox Sync: UI
+1	Release Engineering
+2	Internal Components
+1	Release Engineering
+2	Provider: CalDAV
+1	Release Engineering
+4	Operations: Marketplace
+3	Provider: Local Storage
+4	Dialogs
+1	Release Engineering
+1	Release Engineering
+3	Provider: Local Storage
+2	E-mail based Scheduling (iTIP/iMIP)
+1	Dialogs
+1	Release Engineering
+5	General
+2	Android Sync
+4	Sync UI
+1	Release Engineering
+2	Android Sync
+4	Provider: CalDAV
+4	Lightning Only
+1	Release Engineering
+1	Release Engineering
+1	Release Engineering
+4	Data Providers
+2	Server: Identity
+2	Awesomescreen
+1	Release Engineering
+1	Release Engineering
+2	Keyboards and IME
+2	Keyboards and IME
+2	Text Selection
+1	Release Engineering
+2	Android Sync
+2	Awesomescreen
+2	Awesomescreen
+4	Reader View
+1	Build Config
+4	Documentation
+1	Release Engineering
+1	Build Config
+1	Release Engineering
+3	Firefox Sync: Backend
+2	Graphics, Panning and Zooming
+2	Keyboards and IME
+5	MailNews: General
+2	Keyboards and IME
+1	Release Engineering
+3	Feed Discovery and Preview
+3	Operations: Deployment Requests
+2	Provider: CalDAV
+3	Operations: Marketplace
+1	Release Engineering
+3	Operations: Marketplace
+1	Release Engineering
+3	Operations: Marketplace
+3	Server: Token
+2	Web Apps
+1	Release Engineering
+3	Operations: Deployment Requests
+1	Security
+3	Provider: CalDAV
+1	Release Engineering
+1	Release Engineering
+1	Release Engineering
+1	Release Engineering
+1	Release Engineering
+3	Operations
+3	Printing
+3	Operations
+4	Calendar Views
+4	Dialogs
+1	Release Engineering
+3	Build Config
+4	Printing
+3	Operations: Marketplace
+4	Internal Components
+3	MailNews: Message Display
+4	General
+1	Release Engineering
+5	Calendar Views
+3	Keyboards and IME
+2	Documentation
+1	Release Engineering
+3	Server: Core
+4	Find In Page
+1	Release Engineering
+3	MailNews: Address Book & Contacts
+1	Release Engineering
+2	Graphics, Panning and Zooming
+3	Provider: GData
+1	Release Engineering
+3	Operations: Deployment Requests
+1	Release Engineering
+2	Graphics, Panning and Zooming
+3	Gaia::Dialer
+4	Gaia::Everything.me
+1	Release Engineering
+2	Build Config
+1	Release Engineering
+2	Keyboards and IME
+1	Release Engineering
+2	Graphics, Panning and Zooming
+1	Release Engineering
+4	Gaia::Everything.me
+5	Sidebar
+3	Dialogs
+3	MailNews: Composition
+1	Release Engineering
+1	Release Engineering
+5	Gaia::First Time Experience
+2	Keyboards and IME
+1	Release Engineering
+2	Server: Product Announcements Campaign Manager
+1	Release Engineering
+3	Operations
+3	Web Apps
+3	Gaia::Cost Control
+1	Release Engineering
+3	Gaia::Cost Control
+1	Release Engineering
+3	General
+1	Server: Product Announcements Campaign Manager
+2	Awesomescreen
+1	Release Engineering
+4	Search
+5	MailNews: General
+1	Gaia::Everything.me
+1	Gaia::Dialer
+2	Awesomescreen
+1	Release Engineering
+2	Keyboards and IME
+2	Plugins
+3	Theme and Visual Design
+3	Theme and Visual Design
+1	Release Engineering
+1	Release Engineering
+2	Keyboards and IME
+2	Data Providers
+2	Keyboards and IME
+1	Sync UI
+2	Gaia::Browser
+1	Release Engineering
+1	Release Engineering
+3	Operations: Marketplace
+2	Gaia::Dialer
+3	Provider: ICS/WebDAV
+1	Release Engineering
+1	Release Engineering
+2	Gaia::Bluetooth
+1	Release Engineering
+2	Awesomescreen
+3	Operations: Marketplace
+2	Android Sync
+1	Release Engineering
+2	Keyboards and IME
+1	Operations: Marketplace
+3	Operations: Marketplace
+1	Internal Components
+1	Release Engineering
+3	Operations
+4	Operations
+1	Release Engineering
+2	General
+3	Keyboards and IME
+5	Preferences
+5	Help
+4	Dialogs
+2	Gaia::Dialer
+4	Operations: Marketplace
+3	Operations: Marketplace
+1	Graphics, Panning and Zooming
+2	Keyboards and IME
+5	Help
+1	Release Engineering
+4	Keyboards and IME
+5	Help
+3	Gaia::Clock
+3	Preferences
+1	Release Engineering
+2	Gaia::Dialer
+2	Release Engineering
+2	Release Engineering
+2	Keyboards and IME
+2	Graphics, Panning and Zooming
+3	Android Sync
+4	Help
+2	Gaia::Dialer
+3	Gaia::First Time Experience
+3	Gaia::Dialer
+4	Tasks
+2	Gaia::Dialer
+1	Release Engineering
+3	Server: Sync
+3	Web Apps
+1	Release Engineering
+3	Gaia::Clock
+4	Help
+1	Release Engineering
+1	DOM Inspector
+2	Web Apps
+1	Graphics, Panning and Zooming
+2	Gaia::Everything.me
+2	Gaia::Dialer
+2	Gaia::Dialer
+1	Release Engineering
+1	Release Engineering
+1	Release Engineering
+1	Release Engineering
+4	Gaia::Cost Control
+3	MailNews: General
+1	Build Config
+3	Gaia::FMRadio
+3	Venkman JS Debugger
+1	Release Engineering
+3	Operations
+5	Internal Components
+2	Gaia::Cost Control
+1	Release Engineering
+2	Graphics, Panning and Zooming
+4	Preferences
+3	Operations: Marketplace
+2	Graphics, Panning and Zooming
+1	Release Engineering
+5	Internal Components
+2	Server: Identity
+3	Gaia::Dialer
+3	Operations: Marketplace
+2	Keyboards and IME
+2	General
+1	Gaia::Dialer
+2	ICAL.js Integration
+5	Gaia::First Time Experience
+3	Import and Export
+4	Preferences
+2	ICAL.js Integration
+2	ICAL.js Integration
+2	ICAL.js Integration
+3	Gaia::Cost Control
+3	Gaia::Cost Control
+5	Build Config
+3	Operations: Marketplace
+3	Operations: Marketplace
+2	Provider: CalDAV
+4	Preferences
+3	Gaia::Cost Control
+2	Gaia::FMRadio
+1	Gaia::Dialer
+2	Operations: Marketplace
+3	Operations: Marketplace
+3	Gaia::Cost Control
+1	Gaia::Dialer
+3	JimDB
+2	Gaia::Everything.me
+3	PyXPCOM
+1	General
+3	Gaia::Browser
+3	Gaia::Clock
+1	Release Engineering
+4	Search
+3	Gaia::Cost Control
+4	Release Engineering
+1	Release Engineering
+1	Release Engineering
+3	Gaia::Browser
+3	Server: Identity
+3	Web Apps
+1	Release Engineering
+3	Gaia::Dialer
+3	Gaia::Everything.me
+2	General
+3	Gaia::Browser
+1	Release Engineering
+3	Gaia::Dialer
+3	Product Announcements
+5	Help
+2	Operations: Marketplace
+2	Operations: Marketplace
+1	Release Engineering
+3	ICAL.js Integration
+4	Graphics, Panning and Zooming
+3	ICAL.js Integration
+2	Graphics, Panning and Zooming
+1	Release Engineering
+2	Provider: CalDAV
+2	Provider: ICS/WebDAV
+4	Preferences
+4	Gaia::First Time Experience
+3	Gaia::Cost Control
+2	Dialogs
+3	Server: Product Announcements Campaign Manager
+1	Gaia::Everything.me
+2	Plugins
+5	Add-on Manager
+5	Awesomescreen
+4	General
+3	Provider: CalDAV
+3	Awesomescreen
+1	Release Engineering
+3	Awesomescreen
+4	Awesomescreen
+3	Awesomescreen
+2	Awesomescreen
+2	Gaia::Bluetooth
+3	Server: Product Announcements Campaign Manager
+2	Awesomescreen
+2	Graphics, Panning and Zooming
+2	Awesomescreen
+5	Awesomescreen
+1	Release Engineering
+3	Gaia::Browser
+2	Gaia::Cost Control
+1	Build Config
+1	Release Engineering
+3	Preferences
+2	Graphics, Panning and Zooming
+2	Server: Identity
+2	Server: Identity
+3	Provider: CalDAV
+3	Gaia::Clock
+2	Gaia::Dialer
+1	Gaia::Everything.me
+5	General
+1	Gaia::Everything.me
+1	Lightning Only
+1	Release Engineering
+5	MailNews: Address Book & Contacts
+1	Release Engineering
+1	Release Engineering
+2	Awesomescreen
+2	Awesomescreen
+3	ICAL.js Integration
+2	Gaia::Dialer
+3	Gaia::Clock
+1	Release Engineering
+2	Awesomescreen
+2	Graphics, Panning and Zooming
+5	Lightning Only
+2	Gaia::Dialer
+3	Operations: Marketplace
+1	Release Engineering
+4	Sync UI
+1	Release Engineering
+4	Testing
+1	Release Engineering
+2	Awesomescreen
+3	Gaia::Dialer
+3	Other
+3	Other
+4	Account manager
+4	Account manager
+4	Account manager
+4	Account manager
+5	Conversation
+4	Conversation
+4	Account manager
+4	Account wizard
+5	Conversation
+4	Account manager
+4	Other
+5	Account manager
+3	Account manager
+4	Account manager
+4	Account manager
+5	Contacts window
+5	Account manager
+4	Conversation
+4	Conversation
+3	Conversation
+4	Contacts window
+4	Localization
+4	Account manager
+5	Conversation
+4	Conversation
+4	Account manager
+4	Contacts window
+4	Account manager
+2	Other
+4	Conversation
+5	Other
+4	Conversation
+3	Conversation
+4	Conversation
+4	Account manager
+4	Conversation
+4	Conversation
+4	Other
+4	Conversation
+5	Contacts window
+4	Contacts window
+4	Contacts window
+5	Other
+5	Account manager
+5	Preferences
+5	Preferences
+4	Preferences
+5	Account manager
+4	Conversation
+4	Conversation
+4	Conversation
+3	Conversation
+4	Other
+5	Contacts window
+4	Account wizard
+4	Preferences
+3	Contacts window
+4	Other
+5	Other
+5	Other
+4	Conversation
+5	Conversation
+4	Account manager
+3	Other
+3	Preferences
+5	Preferences
+4	Conversation
+4	Contacts window
+4	Contacts window
+4	Conversation
+5	Conversation
+3	Conversation
+4	Other
+5	Other
+4	Other
+1	Contacts window
+4	Conversation
+2	Account wizard
+5	Other
+3	Conversation
+4	Other
+4	Other
+3	Contacts window
+4	Conversation
+5	Other
+5	Other
+3	Other
+4	Account manager
+3	Contacts window
+4	Contacts window
+4	Contacts window
+4	Localization
+4	Other
+5	Contacts window
+4	Localization
+5	Contacts window
+4	Conversation
+4	Contacts window
+4	Conversation
+4	Conversation
+3	Contacts window
+1	Other
+4	Conversation
+2	Conversation
+5	Other
+4	Other
+4	Contacts window
+4	Other
+5	Conversation
+5	Account wizard
+4	Preferences
+4	Contacts window
+4	Conversation
+4	Conversation
+4	Conversation
+4	Conversation
+4	Conversation
+4	Conversation
+4	Conversation
+4	Account wizard
+4	Other
+4	Conversation
+4	Conversation
+4	Conversation
+4	Account wizard
+4	Localization
+4	Demo Add-ons
+4	Other
+4	Conversation
+5	Other
+5	Other
+5	Localization
+4	Account wizard
+5	Contacts window
+5	Conversation
+4	Conversation
+4	Contacts window
+4	Conversation
+4	Other
+4	Other
+4	Conversation
+5	Other
+4	Other
+4	Other
+5	Conversation
+5	Conversation
+5	Other
+5	Account manager
+3	Conversation
+4	Conversation
+5	Other
+4	Other
+5	Other
+3	Conversation
+4	Other
+1	Localization
+4	Other
+4	Conversation
+4	Conversation
+5	Other
+5	Conversation
+4	Other
+4	Other
+4	Other
+4	Conversation
+4	Conversation
+4	Conversation
+4	Other
+4	Other
+4	Other
+3	Conversation
+2	Other
+5	Conversation
+5	Conversation
+4	Conversation
+4	Conversation
+3	Contacts window
+3	Other
+5	Other
+4	Other
+4	Other
+4	Contacts window
+4	Other
+4	Other
+3	MailNews: Message Display
+3	Server: Firefox Accounts
+3	Conversation
+2	Graphics, Panning and Zooming
+3	Server: Firefox Accounts
+1	Release Engineering
+3	Operations: Marketplace
+2	Android Sync
+4	General
+2	Web Apps
+2	Web Apps
+1	Firefox Sync: Backend
+1	Server: Key Exchange
+1	Release Engineering
+3	Android Sync
+5	Download Manager
+1	Release Engineering
+2	Graphics, Panning and Zooming
+3	Firefox Sync: Backend
+1	Other
+2	Web Apps
+4	Calendar Views
+2	Startup & Profiles
+2	Awesomescreen
+3	Firefox Sync: Backend
+1	Release Engineering
+4	Provider: ICS/WebDAV
+2	Favicon Handling
+3	Internal Components
+4	Dialogs
+4	Dialogs
+3	Contacts window
+4	Other
+2	Graphics, Panning and Zooming
+1	Web Apps
+1	Release Engineering
+1	Conversation
+1	Web Apps
+5	Build Config
+1	Release Engineering
+1	Web Apps
+1	Web Apps
+4	Web Apps
+3	Web Apps
+1	Web Apps
+4	Dialogs
+2	Data Providers
+3	General
+4	General
+3	Provider: CalDAV
+1	Gaia::Cost Control
+2	Favicon Handling
+1	Web Apps
+2	Web Apps
+1	Release Engineering
+2	Gaia::Dialer
+3	Feed Discovery and Preview
+4	DOM Inspector
+1	Release Engineering
+5	Provider: CalDAV
+5	MailNews: General
+1	E-mail based Scheduling (iTIP/iMIP)
+3	Favicon Handling
+1	Release Engineering
+3	Operations
+2	Favicon Handling
+2	Web Apps
+4	Conversation
+4	Conversation
+1	Web Apps
+2	Keyboards and IME
+3	Website
+4	Other
+2	Web Apps
+1	Release Engineering
+4	Gaia::First Time Experience
+3	Web Apps
+1	Release Engineering
+3	Preferences
+3	Gaia::Dialer
+1	Web Apps
+3	Data Providers
+1	Gaia::Build
+5	Contacts window
+4	Conversation
+1	Gaia::Everything.me
+3	Other
+2	Core
+1	Server: Identity
+5	Operations: Marketplace
+3	Operations: Marketplace
+1	Operations: Marketplace
+3	Operations
+1	E-mail based Scheduling (iTIP/iMIP)
+2	Gaia::Cost Control
+1	General
+2	Firefox Health Report Service
+2	SimplePush
+3	Gaia::Browser
+3	Project Organization
+2	Screencasting
+2	Screencasting
+2	Gaia::Build
+4	General
+3	Feed Discovery and Preview
+4	Other
+2	Keyboards and IME
+1	Other
+2	Screencasting
+2	Screencasting
+2	Screencasting
+2	Screencasting
+1	Release Engineering
+2	Screencasting
+2	Screencasting
+1	Release Engineering
+2	Operations
+3	Server: Firefox Accounts
+3	Build Config & IDE Support
+3	Gaia::Cost Control
+2	Overlays
+1	Release Engineering
+3	Gaia::Bluetooth
+3	Gaia::Dialer
+3	Conversation
+3	Operations
+3	Operations
+3	Gaia::Browser
+2	Data Providers
+2	Keyboards and IME
+3	Passwords & Permissions
+3	Build Config
+4	Internal Components
+1	Build Config & IDE Support
+2	Data Providers
+2	Data Providers
+3	Other
+3	Gaia::First Time Experience
+1	Release Engineering
+3	Gaia::Dialer
+2	ICAL.js Integration
+1	Release Engineering
+3	Provider: GData
+1	Other
+1	Conversation
+1	Release Engineering
+3	Operations: Deployment Requests
+3	Operations: Deployment Requests
+2	Search Activity
+4	Conversation
+1	Operations
+3	Gaia::Dialer
+3	Gaia::Browser
+4	Conversation
+4	Gaia::Cost Control
+4	Conversation
+4	Gaia::Cost Control
+2	Data Providers
+3	Provider: GData
+3	SimplePush
+1	Release Engineering
+3	Operations
+3	Graphics, Panning and Zooming
+2	Favicon Handling
+1	Release Engineering
+1	Provider: CalDAV
+2	Lightning: SeaMonkey Integration
+3	Provider: GData
+1	Release Engineering
+2	Audio/Video
+1	Release Engineering
+5	General
+4	Graphics, Panning and Zooming
+1	Release Engineering
+1	Release Engineering
+5	Calendar Views
+4	E-mail based Scheduling (iTIP/iMIP)
+5	Calendar Views
+4	Preferences
+3	Theme & Visual Design
+1	Operations
+2	Audio/Video
+2	Graphics, Panning and Zooming
+2	Search Activity
+1	Release Engineering
+3	Tiles
+2	Firefox Health Report Service
+1	Release Engineering
+3	Other
+2	Web Apps
+2	Favicons
+2	General
+1	Release Engineering
+3	E-mail based Scheduling (iTIP/iMIP)
+5	Composer
+4	Contacts window
+1	Release Engineering
+4	MailNews: General
+5	Lightning Only
+3	Project Organization
+1	Release Engineering
+2	Home screen
+3	General
+2	General
+3	Gaia::Browser
+4	Preferences
+4	Settings and Preferences
+2	Lightning Only
+2	Operations: Marketplace
+2	Profile Handling
+2	Search Activity
+3	Gaia::Build
+2	General
+4	Browser
+2	Metrics: Pipeline
+3	Reader View
+4	Browser
+4	Browser
+2	Server: Identity
+3	Firefox Sync: UI
+1	Testing
+2	Graphics, Panning and Zooming
+2	Audio/Video
+1	ICAL.js Integration
+3	General
+2	Browser
+2	General
+2	Traffic
+2	Traffic
+2	Tiles
+2	Text Selection
+2	Traffic
+1	Metrics: Pipeline
+3	Traffic
+2	Traffic
+2	Traffic
+2	Traffic
+2	Tiles
+3	General
+3	Other
+2	Traffic
+3	Browser
+3	General
+2	General
+2	General
+2	Conversation
+2	Home screen
+3	Add-on Manager
+2	Traffic
+2	Traffic
+2	General
+1	Operations
+4	Dialogs
+3	Browser
+2	Data Storage
+2	General
+2	General
+2	Build & Test
+4	Project Organization
+2	Browser
+3	Traffic
+3	Other
+3	Classification Engine
+3	Traffic
+4	General
+4	General
+2	Browser
+1	Other
+2	Tiles
+2	Browser
+2	General
+3	Tiles
+2	Browser
+2	Tiles
+2	Tiles
+2	Sync
+1	Data Storage
+2	Tiles
+2	Tiles
+3	Tiles
+2	Tiles
+3	Provider: CalDAV
+3	Provider: GData
+2	Traffic
+2	Traffic
+3	Tiles
+2	Tiles
+2	Browser
+2	General
+2	General
+3	Operations
+3	Contacts window
+2	Tiles
+2	Tiles
+2	Data Storage
+5	General
+3	E-mail based Scheduling (iTIP/iMIP)
+2	General
+5	Operations
+2	Graphics, Panning and Zooming
+3	Server: Sync
+2	Browser
+2	Home screen
+3	Operations
+1	Find My Device
+2	Metrics: Pipeline
+2	Browser
+2	Tiles
+2	Tiles
+2	Tiles
+2	Tiles
+2	Data Storage
+4	Dialogs
+2	General
+2	Operations
+2	General
+1	Operations
+2	Tiles
+2	Tiles
+4	E-mail based Scheduling (iTIP/iMIP)
+2	Data Storage
+1	Other
+2	Data Storage
+2	Home screen
+1	Release Engineering
+2	Tiles
+3	Home screen
+2	Browser
+2	Tiles
+2	Tiles
+2	Tiles
+2	Tiles
+2	General
+2	Tiles
+2	DOM Inspector
+2	General
+1	Metrics: Pipeline
+2	Favicons
+2	Graphics, Panning and Zooming
+2	Tiles
+2	Tiles
+1	Release Engineering
