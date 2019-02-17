@@ -1,9 +1,9 @@
 
 
 
-import io
 from nltk.corpus import stopwords
 import re
+from collections import Counter
 
 stop_words = set(stopwords.words('english'))
 
@@ -21,6 +21,7 @@ words = re.split(r'\W+', text)
 
 for i in words:
    if not i in stop_words:
-      print(i)
-
+      #print(i)
+      print(Counter(text.split()))
+      break
 
