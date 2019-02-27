@@ -4,7 +4,7 @@ import re
 from collections import Counter
 
 # load text
-filename = "mozila.txt"
+filename = "gcc.txt"
 file = open(filename, 'rt')
 text = file.read()
 file.close()
@@ -19,10 +19,13 @@ stop_words = set(stopwords)
 for i in words:
     if not i in stop_words:
         # print(i)
-        result: str = ''.join(j for j in text if not j.isdigit())
+        result = ''.join(j for j in text if not j.isdigit())
         word = result.split()
         count = Counter(word)
-        print(count)
+        for e in count:
+           print(e, end=": ")
+           print(count[e])
+           #print(count)
         break
 
 
