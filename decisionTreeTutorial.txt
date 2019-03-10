@@ -1,0 +1,203 @@
+
+https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/
+
+
+
+
+
+
+The Gini index is the name of the cost function used to evaluate splits in the dataset.
+
+A split in the dataset involves one input attribute and one value for that attribute. It can be used to divide training patterns into two groups of rows.
+
+A Gini score gives an idea of how good a split is by how mixed the classes are in the two groups created by the split. A perfect separation results in a Gini score of 0, whereas the worst case split that results in 50/50 classes in each group result in a Gini score of 0.5 (for a 2 class problem).
+
+Calculating Gini is best demonstrated with an example.
+
+We have two groups of data with 2 rows in each group. The rows in the first group all belong to class 0 and the rows in the second group belong to class 1, so it’s a perfect split.
+
+We first need to calculate the proportion of classes in each group.
+
+proportion = count(class_value) / count(rows)
+1
+proportion = count(class_value) / count(rows)
+The proportions for this example would be:
+
+group_1_class_0 = 2 / 2 = 1
+group_1_class_1 = 0 / 2 = 0
+group_2_class_0 = 0 / 2 = 0
+group_2_class_1 = 2 / 2 = 1
+1
+2
+3
+4
+group_1_class_0 = 2 / 2 = 1
+group_1_class_1 = 0 / 2 = 0
+group_2_class_0 = 0 / 2 = 0
+group_2_class_1 = 2 / 2 = 1
+Gini is then calculated for each child node as follows:
+
+gini_index = sum(proportion * (1.0 - proportion))
+gini_index = 1.0 - sum(proportion * proportion)
+1
+2
+gini_index = sum(proportion * (1.0 - proportion))
+gini_index = 1.0 - sum(proportion * proportion)
+The Gini index for each group must then be weighted by the size of the group, relative to all of the samples in the parent, e.g. all samples that are currently being grouped. We can add this weighting to the Gini calculation for a group as follows:
+
+gini_index = (1.0 - sum(proportion * proportion)) * (group_size/total_samples)
+1
+gini_index = (1.0 - sum(proportion * proportion)) * (group_size/total_samples)
+In this example the Gini scores for each group are calculated as follows:
+
+Gini(group_1) = (1 - (1*1 + 0*0)) * 2/4
+Gini(group_1) = 0.0 * 0.5 
+Gini(group_1) = 0.0 
+Gini(group_2) = (1 - (0*0 + 1*1)) * 2/4
+Gini(group_2) = 0.0 * 0.5 
+Gini(group_2) = 0.0
+1
+2
+3
+4
+5
+6
+Gini(group_1) = (1 - (1*1 + 0*0)) * 2/4
+Gini(group_1) = 0.0 * 0.5 
+Gini(group_1) = 0.0 
+Gini(group_2) = (1 - (0*0 + 1*1)) * 2/4
+Gini(group_2) = 0.0 * 0.5 
+Gini(group_2) = 0.0
+The scores are then added across each child node at the split point to give a final Gini score for the split point that can be compared to other candidate split points.
+
+The Gini for this split point would then be calculated as 0.0 + 0.0 or a perfect Gini score of 0.0.
+
+
+
+
+
+
+
+
+
+2. Create Split
+
+A split is comprised of an attribute in the dataset and a value.
+
+We can summarize this as the index of an attribute to split and the value by which to split rows on that attribute. This is just a useful shorthand for indexing into rows of data.
+
+Creating a split involves three parts, the first we have already looked at which is calculating the Gini score. The remaining two parts are:
+
+Splitting a Dataset.
+Evaluating All Splits.
+Let’s take a look at each.
+
+2.1. Splitting a Dataset
+Splitting a dataset means separating a dataset into two lists of rows given the index of an attribute and a split value for that attribute.
+
+Once we have the two groups, we can then use our Gini score above to evaluate the cost of the split.
+
+Splitting a dataset involves iterating over each row, checking if the attribute value is below or above the split value and assigning it to the left or right group respectively.
+
+
+
+
+2.2. Evaluating All Splits
+
+
+With the Gini function above and the test split function we now have everything we need to evaluate splits.
+
+Given a dataset, we must check every value on each attribute as a candidate split, evaluate the cost of the split and find the best possible split we could make.
+
+Once the best split is found, we can use it as a node in our decision tree.
+
+This is an exhaustive and greedy algorithm.
+
+We will use a dictionary to represent a node in the decision tree as we can store data by name. When selecting the best split and using it as a new node for the tree we will store the index of the chosen attribute, the value of that attribute by which to split and the two groups of data split by the chosen split point.
+
+Each group of data is its own small dataset of just those rows assigned to the left or right group by the splitting process. You can imagine how we might split each group again, recursively as we build out our decision tree.
+
+Below is a function named get_split() that implements this procedure. You can see that it iterates over each attribute (except the class value) and then each value for that attribute, splitting and evaluating splits as it goes.
+
+
+
+
+3. Build a Tree
+Creating the root node of the tree is easy.
+
+We call the above get_split() function using the entire dataset.
+
+Adding more nodes to our tree is more interesting.
+
+Building a tree may be divided into 3 main parts:
+
+Terminal Nodes.
+Recursive Splitting.
+Building a Tree.
+
+
+
+3.2. Recursive Splitting
+We know how and when to create terminal nodes, now we can build our tree.
+
+Building a decision tree involves calling the above developed get_split() function over and over again on the groups created for each node.
+
+New nodes added to an existing node are called child nodes. A node may have zero children (a terminal node), one child (one side makes a prediction directly) or two child nodes. We will refer to the child nodes as left and right in the dictionary representation of a given node.
+
+Once a node is created, we can create child nodes recursively on each group of data from the split by calling the same function again.
+
+Below is a function that implements this recursive procedure. It takes a node as an argument as well as the maximum depth, minimum number of patterns in a node and the current depth of a node.
+
+You can imagine how this might be first called passing in the root node and the depth of 1. This function is best explained in steps:
+
+Firstly, the two groups of data split by the node are extracted for use and deleted from the node. As we work on these groups the node no longer requires access to these data.
+Next, we check if either left or right group of rows is empty and if so we create a terminal node using what records we do have.
+We then check if we have reached our maximum depth and if so we create a terminal node.
+We then process the left child, creating a terminal node if the group of rows is too small, otherwise creating and adding the left node in a depth first fashion until the bottom of the tree is reached on this branch.
+The right side is then processed in the same manner, as we rise back up the constructed tree to the root.
+
+
+
+
+
+
+3.1. Terminal Nodes
+We need to decide when to stop growing a tree.
+
+We can do that using the depth and the number of rows that the node is responsible for in the training dataset.
+
+Maximum Tree Depth. This is the maximum number of nodes from the root node of the tree. Once a maximum depth of the tree is met, we must stop splitting adding new nodes. Deeper trees are more complex and are more likely to overfit the training data.
+Minimum Node Records. This is the minimum number of training patterns that a given node is responsible for. Once at or below this minimum, we must stop splitting and adding new nodes. Nodes that account for too few training patterns are expected to be too specific and are likely to overfit the training data.
+These two approaches will be user-specified arguments to our tree building procedure.
+
+There is one more condition. It is possible to choose a split in which all rows belong to one group. In this case, we will be unable to continue splitting and adding child nodes as we will have no records to split on one side or another.
+
+Now we have some ideas of when to stop growing the tree. When we do stop growing at a given point, that node is called a terminal node and is used to make a final prediction.
+
+This is done by taking the group of rows assigned to that node and selecting the most common class value in the group. This will be used to make predictions.
+
+Below is a function named to_terminal() that will select a class value for a group of rows. It returns the most common output value in a list of rows.
+
+
+
+
+3.3. Building a Tree
+We can now put all of the pieces together.
+
+Building the tree involves creating the root node and calling the split() function that then calls itself recursively to build out the whole tree.
+
+
+
+
+4. Make a Prediction
+Making predictions with a decision tree involves navigating the tree with the specifically provided row of data.
+
+Again, we can implement this using a recursive function, where the same prediction routine is called again with the left or the right child nodes, depending on how the split affects the provided data.
+
+We must check if a child node is either a terminal value to be returned as the prediction, or if it is a dictionary node containing another level of the tree to be considered.
+
+Below is the predict() function that implements this procedure. You can see how the index and value in a given node
+
+
+
+
