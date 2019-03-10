@@ -1,0 +1,23 @@
+What is FTP
+
+ FTP is a method to access and share files on the internet. The protocol is a way to communicate between computers on a TCP/IP network, the internet.  It’s used by users who have access to transfer and receive files in the FTP server (also known as FTP host/site). The access control is essential to prevent an unauthorized person from getting those files.
+
+
+To transfer a file, 2 TCP connections are used by FTP in parallel: control connection and data connection.
+
+
+
+What is control connection?
+
+For sending control information like user identification, password, commands to change the remote directory, commands to retrieve and store files etc., FTP makes use of control connection. Control connection is initiated on port number 21.
+
+
+What is data connection?
+
+For sending the actual file, FTP makes use of data connection. Data connection is initiated on port number 20.
+FTP sends the control information out-of-band as it uses a separate control connection. Some protocols send their request and response header lines and the data in the same TCP connection. For this reason, they are said to send their control information in-band. HTTP and SMTP are such examples.
+
+
+
+FTP Session :
+When a FTP session is started between a client and a server, the client initiates a control TCP connection with the server side. The client sends the control information over this. When the server receives this, it initiates a data connection to the client side. Only one file can be sent over one data connection. But the control connection remains active throughout the user session. As we know HTTP is stateless i.e. it does not have to keep track of any user state. But FTP needs to maintain a state about its user throughout the session.
