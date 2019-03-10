@@ -1,0 +1,9 @@
+
+A client reads a line from its standard input (keyboard) and sends the line out its socket to the server
+The server reads a line from its socket
+The server converts the line to uppercase
+The server sends the modified line out its socket to the client
+The client reads the modified line from its socket and prints the line on its standard output(monitor)
+
+
+
