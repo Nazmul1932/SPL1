@@ -1,0 +1,86 @@
+The Hypertext Transfer Protocol (HTTP) is designed to enable communications between clients and servers.
+
+HTTP works as a request-response protocol between a client and server.
+
+A web browser may be the client, and an application on a computer that hosts a web site may be the server.
+
+Example: A client (browser) submits an HTTP request to the server; then the server returns a response to the client. The response contains status information about the request and may also contain the requested content.
+
+
+
+
+
+
+The GET Method
+GET is used to request data from a specified resource.
+
+GET is one of the most common HTTP methods.
+
+Some other notes on GET requests:
+
+GET requests can be cached
+GET requests remain in the browser history
+GET requests can be bookmarked
+GET requests should never be used when dealing with sensitive data
+GET requests have length restrictions
+GET requests is only used to request data (not modify)
+
+
+
+
+
+
+
+
+The POST Method
+POST is used to send data to a server to create/update a resource.
+
+The data sent to the server with POST is stored in the request body of the HTTP request:
+
+POST /test/demo_form.php HTTP/1.1
+Host: w3schools.com
+name1=value1&name2=value2
+POST is one of the most common HTTP methods.
+
+Some other notes on POST requests:
+
+POST requests are never cached
+POST requests do not remain in the browser history
+POST requests cannot be bookmarked
+POST requests have no restrictions on data length
+
+
+
+
+
+
+
+
+
+
+
+
+The PUT Method
+PUT is used to send data to a server to create/update a resource.
+
+The difference between POST and PUT is that PUT requests are idempotent. That is, calling the same PUT request multiple times will always produce the same result. In contrast, calling a POST request repeatedly have side effects of creating the same resource multiple times.
+
+
+
+
+
+
+The DELETE Method
+The DELETE method deletes the specified resource.
+
+
+
+
+
+The OPTIONS Method
+The OPTIONS method describes the communication options for the target resource.
+
+
+
+
+
