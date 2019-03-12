@@ -19,10 +19,7 @@ def stringToFloat(dataset, column):
 
 # Split a dataset based on an attribute and an attribute value
 def split_Dataset(index, value, dataset):
-	"""
-
-	:rtype: object
-	"""
+	
 	left, right = list(), list()
 	for row in dataset:
 		if row[index] < value:
