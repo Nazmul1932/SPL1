@@ -1,9 +1,13 @@
-
-
+def splitDataset(index, value, dataset):
+	leftSide, rightSide = list(), list()
+	for row in dataset:
+		if row[index] < value:
+			leftSide.append(row)
+		else:
+			rightSide.append(row)
+	return leftSide, rightSide
 
 from csv import reader
-
-
 def readCSVfile(fileName):
 	openFile = open(fileName)
 	readFileBylines = reader(openFile)
@@ -19,125 +23,120 @@ def stringToFloat(dataset, column):
 		# print(row[column])
 
 
-# Split a dataset based on an attribute and an attribute value
-def split_Dataset(index, value, dataset):
+def findGiniIndex(groups, classes):
 
-	left, right = list(), list()
-	for row in dataset:
-		if row[index] < value:
-			left.append(row)
-		else:
-			right.append(row)
-	return left, right
-
-
-
-# Calculate the Gini index for a split dataset
-def find_gini_index(groups, classes):
-
-	lengthOfDataset = float(sum([len(group) for group in groups]))
+	lengthOfDataset = int(sum([len(group) for group in groups]))
 	# print(lengthOfDataset)
 
-	gini = 0.0
+	weighted_gini = 0.0
 	for group in groups:
-		size = float(len(group))
+		sizeOfGroup = int(len(group))
 		# print(size)
 
-		if size == 0:
+		if sizeOfGroup == 0:
 			continue
 
 		score = 0.0
 
 		for class_value in classes:
-			proportion = [row[-1] for row in group].count(class_value) / size
+			aa = [row[-1] for row in group]
+
+			proportion = (aa. count(class_value)) / sizeOfGroup
 			# print(proportion)
 			score += proportion * proportion
 			# print(score)
 
-		gini += (1.0 - score) * (size / lengthOfDataset)
-	return gini
+		gini = 1.0 - score
+		weighted_gini += gini * (sizeOfGroup / lengthOfDataset)
 
+	return weighted_gini
 
+def get_Node(dataset):
+	classValues = list(set(row[-1] for row in dataset))
+	# print(classValues)
 
-
-def get_split(dataset):
-	class_values = list(set(row[-1] for row in dataset))
-	# print(class_values)
-
-	rootNodeindex, rootNodevalue, rootNodescore, rootNodegroups = 999, 999, 999, None
+	indexOfNode, valueOfNode, scoreOfNode, groupsOfNode = 1000, 1000, 1000, None
 
 	for index in range(len(dataset[0])-1):
 		for row in dataset:
-			groups = split_Dataset(index, row[index], dataset)
+			groups = splitDataset(index, row[index], dataset)
 			# print(groups)
-			gini = find_gini_index(groups, class_values)
+			gini_found = findGiniIndex(groups, classValues)
 			# print(gini)
-			if gini < rootNodescore:
-				rootNodeindex, rootNodevalue, rootNodescore, rootNodegroups = index, row[index], gini, groups
-	return {'index': rootNodeindex, 'value': rootNodevalue, 'groups': rootNodegroups}
+			if gini_found < scoreOfNode:
+				indexOfNode, valueOfNode, scoreOfNode, groups_OfNode = index, row[index], gini_found, groups
+	return {'index of node': indexOfNode, 'value of that node ': valueOfNode, 'groups of node': groups_OfNode}
 
+def leaf_Node(group):
 
-
-
-def toTerminal(group):
 	outcomes = [row[-1] for row in group]
 	cc = max(set(outcomes), key=outcomes.count)
 	# print(cc)
 	return cc
 
+def splitTree(node, max_Depth, min_Size, current_depth):
+	leftGroup, rightGroup = node['groups of node']
+	del(node['groups of node'])
 
-
-
-def split(node, maxDepth, minSize, depth):
-	left, right = node['groups']
-	del(node['groups'])
-
-	if not left or not right:
-		node['left'] = node['right'] = toTerminal(left + right)
+	if current_depth >= max_Depth:
+		node['left'], node['right'] = leaf_Node(leftGroup), leaf_Node(rightGroup)
 		return
 
-	if depth >= maxDepth:
-		node['left'], node['right'] = toTerminal(left), toTerminal(right)
+	if len(leftGroup) <= min_Size:
+		node['left'] = leaf_Node(leftGroup)
+	else:
+		node['left'] = get_Node(leftGroup)
+		splitTree(node['left'], max_Depth, min_Size, current_depth+1)
+
+
+	if len(rightGroup) <= min_Size:
+		node['right'] = leaf_Node(rightGroup)
+	else:
+		node['right'] = get_Node(rightGroup)
+		splitTree(node['right'], max_Depth, min_Size, current_depth+1)
+
+
+	if not leftGroup or not rightGroup:
+		node['left'] = node['right'] = leaf_Node(leftGroup + rightGroup)
 		return
 
-	if len(left) <= minSize:
-		node['left'] = toTerminal(left)
 
-	else:
-		node['left'] = get_split(left)
-		split(node['left'], maxDepth, minSize, depth+1)
-
-	if len(right) <= minSize:
-		node['right'] = toTerminal(right)
-	else:
-		node['right'] = get_split(right)
-		split(node['right'], maxDepth, minSize, depth+1)
-
-
-def tree_Builder(train, maxDepth, minSize):
-	root_Node = get_split(train)
-	split(root_Node, maxDepth, minSize, 2)
+def tree_Builder(train_Dataset, max_Depth, min_Size):
+	root_Node = get_Node(train_Dataset)
+	splitTree(root_Node, max_Depth, min_Size, 1)
 	return root_Node
 
 
 
-def print_tree(node):
+def predict(node, row):
+	# print(row[node['index']])
+	# print(node['value'])
+	# print(node['left'])
+	if row[node['index']] < node['value']:
+		if isinstance(node['left'], dict):
+			return predict(node['left'], row)
+		else:
+			return node['left']
+	else:
+		if isinstance(node['right'], dict):
+			return predict(node['right'], row)
+		else:
+			return node['right']
 
-		print('[X%d < %.4f]' % ((node['index']), node['value']))
-		print('[%s]' % ((node)))
 
-
-file_name = 'bank.csv'
+file_name = 'demo.csv'
 data_set = readCSVfile(file_name)
 
 aa = len(data_set[0])
-# print(aa)
 for i in range(aa):
 	stringToFloat(data_set, i)
 
-maxDepth = int(input('enter depth of the tree : '))
-maxSize = int(input('enter size of the tree :  '))
+max_Depth = int(input('enter depth of the tree : '))
+min_Size = int(input('enter size of the tree :  '))
 
-tree = tree_Builder(data_set, maxDepth, maxSize)
+make_tree = tree_Builder(data_set, max_Depth, min_Size)
 
-print_tree(tree)
+stump = {'index': 0, 'right': 1, 'value': 5.12458963, 'left': 0}
+for row in data_set:
+	predicted_value = predict(stump, row)
+	print('Expected Class = %d, Got Class = %d' % (row[-1], predicted_value))
