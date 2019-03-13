@@ -1,7 +1,7 @@
 
 https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/
 
-
+https://medium.com/@rishabhjain_22692/decision-trees-it-begins-here-93ff54ef134
 
 
 
@@ -14,7 +14,7 @@ A Gini score gives an idea of how good a split is by how mixed the classes are i
 
 Calculating Gini is best demonstrated with an example.
 
-We have two groups of data with 2 rows in each group. The rows in the first group all belong to class 0 and the rows in the second group belong to class 1, so it’s a perfect split.
+We have two groups of data with 2 rows in each group. The rows in the first group all belong to class 0 and the rows in the second group belong to class 1, so itâ€™s a perfect split.
 
 We first need to calculate the proportion of classes in each group.
 
@@ -90,7 +90,7 @@ Creating a split involves three parts, the first we have already looked at which
 
 Splitting a Dataset.
 Evaluating All Splits.
-Let’s take a look at each.
+Letâ€™s take a look at each.
 
 2.1. Splitting a Dataset
 Splitting a dataset means separating a dataset into two lists of rows given the index of an attribute and a split value for that attribute.
