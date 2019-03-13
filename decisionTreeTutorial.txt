@@ -3,6 +3,8 @@ https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-pyt
 
 https://medium.com/@rishabhjain_22692/decision-trees-it-begins-here-93ff54ef134
 
+https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk
+
 
 
 
