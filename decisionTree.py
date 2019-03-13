@@ -1,4 +1,6 @@
 
+
+
 from csv import reader
 
 
@@ -19,7 +21,7 @@ def stringToFloat(dataset, column):
 
 # Split a dataset based on an attribute and an attribute value
 def split_Dataset(index, value, dataset):
-	
+
 	left, right = list(), list()
 	for row in dataset:
 		if row[index] < value:
@@ -32,30 +34,35 @@ def split_Dataset(index, value, dataset):
 
 # Calculate the Gini index for a split dataset
 def find_gini_index(groups, classes):
-	# count all samples at split point
+
 	lengthOfDataset = float(sum([len(group) for group in groups]))
-	# sum weighted Gini index for each group
+	# print(lengthOfDataset)
+
 	gini = 0.0
 	for group in groups:
 		size = float(len(group))
-		# avoid divide by zero
+		# print(size)
+
 		if size == 0:
 			continue
+
 		score = 0.0
-		# score the group based on the score for each class
+
 		for class_value in classes:
 			proportion = [row[-1] for row in group].count(class_value) / size
+			# print(proportion)
 			score += proportion * proportion
-		# weight the group score by its relative size
+			# print(score)
+
 		gini += (1.0 - score) * (size / lengthOfDataset)
 	return gini
 
 
 
-# Select the best split point for a dataset
+
 def get_split(dataset):
 	class_values = list(set(row[-1] for row in dataset))
-	# print(class_values) #aikhane class 0 and 1 print hbe
+	# print(class_values)
 
 	rootNodeindex, rootNodevalue, rootNodescore, rootNodegroups = 999, 999, 999, None
 
@@ -64,13 +71,14 @@ def get_split(dataset):
 			groups = split_Dataset(index, row[index], dataset)
 			# print(groups)
 			gini = find_gini_index(groups, class_values)
+			# print(gini)
 			if gini < rootNodescore:
 				rootNodeindex, rootNodevalue, rootNodescore, rootNodegroups = index, row[index], gini, groups
 	return {'index': rootNodeindex, 'value': rootNodevalue, 'groups': rootNodegroups}
 
 
 
-# Create a terminal node value
+
 def toTerminal(group):
 	outcomes = [row[-1] for row in group]
 	cc = max(set(outcomes), key=outcomes.count)
@@ -79,29 +87,26 @@ def toTerminal(group):
 
 
 
-# Create child splits for a node or make terminal
+
 def split(node, maxDepth, minSize, depth):
 	left, right = node['groups']
 	del(node['groups'])
-	# check for a no split
+
 	if not left or not right:
 		node['left'] = node['right'] = toTerminal(left + right)
 		return
-	# check for max depth
+
 	if depth >= maxDepth:
 		node['left'], node['right'] = toTerminal(left), toTerminal(right)
 		return
 
-
-	# process left child
 	if len(left) <= minSize:
 		node['left'] = toTerminal(left)
+
 	else:
 		node['left'] = get_split(left)
 		split(node['left'], maxDepth, minSize, depth+1)
 
-
-	# process right child
 	if len(right) <= minSize:
 		node['right'] = toTerminal(right)
 	else:
@@ -109,25 +114,17 @@ def split(node, maxDepth, minSize, depth):
 		split(node['right'], maxDepth, minSize, depth+1)
 
 
-
-
-# Build a decision tree
 def tree_Builder(train, maxDepth, minSize):
 	root_Node = get_split(train)
-	split(root_Node, maxDepth, minSize, 1)
+	split(root_Node, maxDepth, minSize, 2)
 	return root_Node
 
 
 
-# Print a decision tree
-def print_tree(node, depth=0):
-	if isinstance(node, dict):
-		print('%s[X%d < %.3f]' % ((depth*' ', (node['index']+1), node['value'])))
-		print_tree(node['left'], depth+1)
-		print_tree(node['right'], depth+1)
-	else:
-		print('%s[%s]' % ((depth*' ', node)))
+def print_tree(node):
 
+		print('[X%d < %.4f]' % ((node['index']), node['value']))
+		print('[%s]' % ((node)))
 
 
 file_name = 'bank.csv'
@@ -138,5 +135,9 @@ aa = len(data_set[0])
 for i in range(aa):
 	stringToFloat(data_set, i)
 
-tree = tree_Builder(data_set, 2, 2)
+maxDepth = int(input('enter depth of the tree : '))
+maxSize = int(input('enter size of the tree :  '))
+
+tree = tree_Builder(data_set, maxDepth, maxSize)
+
 print_tree(tree)
