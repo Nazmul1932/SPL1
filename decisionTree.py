@@ -67,9 +67,9 @@ def split_train_dataset(index, value, dataset):
 
 
 
-def find_gini_index(groups, classes):
+def find_Gini(groups, classes):
     length_of_splitting_groups = float(sum([len(group) for group in groups]))
-    weighted_gini = 0.0
+    weighted_Gini = 0.0
 
     for group in groups:
         group_size = float(len(group))
@@ -78,18 +78,18 @@ def find_gini_index(groups, classes):
         score = 0.0
         for class_values_of_dataset in classes:
             probability = [ row [ -1 ] for row in group ].count(class_values_of_dataset) / group_size
-            score =score + probability
-        weighted_gini += (1.0 - score) * (group_size / length_of_splitting_groups)
-    return weighted_gini
+            score = score + probability
+        weighted_Gini += (1.0 - score) * (group_size / length_of_splitting_groups)
+    return weighted_Gini
 
 
-def get_split_dataset(dataset):
+def getting_Split_Dataset(dataset):
     class_values_of_dataset = list(set(row[-1] for row in dataset))
     n_index, n_value, n_score, n_groups = 1000, 1000, 1000, None
     for index in range(len(dataset[0])-1):
         for row in dataset:
             groups_of_dataset = split_train_dataset(index, row[index], dataset)
-            gini_Score = find_gini_index(groups_of_dataset, class_values_of_dataset)
+            gini_Score = find_Gini(groups_of_dataset, class_values_of_dataset)
             if gini_Score < n_score:
                 n_index, n_value, n_score, n_groups = index, row [ index ], gini_Score, groups_of_dataset
 
@@ -103,12 +103,12 @@ def to_leaf_node(group):
 
 
 
-# Create child splits for a node or make terminal
-def split(node, max_depth, min_size, depth):
+
+def make_TREE(node, max_depth, min_size, depth):
     left_tree, right_tree = node['groups']
     del(node['groups'])
 
-    # check for max depth
+
     if depth >= max_depth:
         node['left'], node['right'] = to_leaf_node(left_tree), to_leaf_node(right_tree)
         return
@@ -117,15 +117,15 @@ def split(node, max_depth, min_size, depth):
     if len(left_tree) <= min_size:
        node [ 'left' ] = to_leaf_node(left_tree)
     else:
-        node [ 'left' ] = get_split_dataset(left_tree)
-        split(node [ 'left' ], max_depth, min_size, depth + 1)
+        node [ 'left' ] = getting_Split_Dataset(left_tree)
+        make_TREE(node [ 'left' ], max_depth, min_size, depth + 1)
 
 
     if len(right_tree) <= min_size:
          node [ 'right' ] = to_leaf_node(right_tree)
     else:
-         node [ 'right' ] = get_split_dataset(right_tree)
-         split(node [ 'right' ], max_depth, min_size, depth + 1)
+         node [ 'right' ] = getting_Split_Dataset(right_tree)
+         make_TREE(node [ 'right' ], max_depth, min_size, depth + 1)
 
 
     if not left_tree or not right_tree:
@@ -136,8 +136,8 @@ def split(node, max_depth, min_size, depth):
 
 
 def build_decision_TREE(train_set,max_depth,min_size):
-    root_NODE = get_split_dataset(train_set)
-    split(root_NODE,max_depth,min_size,1)
+    root_NODE = getting_Split_Dataset(train_set)
+    make_TREE(root_NODE,max_depth,min_size,1)
     return root_NODE
 
 def predict_SCORES(node, row):
@@ -163,7 +163,7 @@ def decision_TREE(train_set,test_set,max_depth,min_size):
 
 
 
-file_NAME = 'demo.csv'
+file_NAME = 'bank.csv'
 data_SET = load_CSV_FILE(file_NAME)
 
 
