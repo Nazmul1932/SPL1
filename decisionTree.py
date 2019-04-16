@@ -1,21 +1,17 @@
-from random import randrange
+
 from csv import reader
-
-
-# Load a CSV file
 def load_CSV_FILE(file_NAME):
     read_FILE = open(file_NAME)
     read_LINES = reader( read_FILE)
     Data_Set = list(read_LINES)
-
     return Data_Set
 
-# Convert string column to float
+
 def string_TO_float(data_SET,column):
     for row in data_SET:
         row[column] = float(row[column].strip())
 
-# Split a dataset into k folds
+from random import randrange
 def split_dataset_cross_validation(data_SET,n_Folds):
     data_SET_split = list()
     data_SET_copy = list(data_SET)
@@ -32,17 +28,15 @@ def split_dataset_cross_validation(data_SET,n_Folds):
     return data_SET_split
 
 
-# Calculate accuracy percentage
-def accuracy_metric(actual, predicted):
+
+def calculate_accuracy_metric(actual, predicted):
     correct = 0
     for i in range(len(actual)):
         if actual [ i ] == predicted [ i ]:
-            correct += 1
+            correct = correct + 1
     return correct / float(len(actual)) * 100.0
 
 
-
-# Evaluate an algorithm using a cross validation split
 def implement_decision_tree(data_SET,make_algorithm,n_Folds,*args):
     fold_dataset = split_dataset_cross_validation(data_SET,n_Folds)
     scores_of_every_parts = list()
@@ -57,11 +51,11 @@ def implement_decision_tree(data_SET,make_algorithm,n_Folds,*args):
             row_copy[-1] = None
         predicted_Scores = make_algorithm(train_data_SET,test_data_SET,*args)
         actual = [ row [ -1 ] for row in fold ]
-        accuracy = accuracy_metric(actual, predicted_Scores)
+        accuracy = calculate_accuracy_metric(actual, predicted_Scores)
         scores_of_every_parts.append(accuracy)
     return scores_of_every_parts
 
-# Split a train dataset based on an attribute and an attribute value
+
 def split_train_dataset(index, value, dataset):
     left_GROUPS,right_GROUPS = list(), list()
     for row in dataset:
@@ -72,7 +66,7 @@ def split_train_dataset(index, value, dataset):
     return left_GROUPS, right_GROUPS
 
 
-# Calculate the Gini index for a split dataset
+
 def find_gini_index(groups, classes):
     length_of_splitting_groups = float(sum([len(group) for group in groups]))
     weighted_gini = 0.0
@@ -84,11 +78,11 @@ def find_gini_index(groups, classes):
         score = 0.0
         for class_values_of_dataset in classes:
             probability = [ row [ -1 ] for row in group ].count(class_values_of_dataset) / group_size
-            score += probability
+            score =score + probability
         weighted_gini += (1.0 - score) * (group_size / length_of_splitting_groups)
     return weighted_gini
 
-# Select the best split point for a train dataset for finding a root node
+
 def get_split_dataset(dataset):
     class_values_of_dataset = list(set(row[-1] for row in dataset))
     n_index, n_value, n_score, n_groups = 1000, 1000, 1000, None
@@ -102,7 +96,7 @@ def get_split_dataset(dataset):
     return {'index': n_index, 'value': n_value, 'groups': n_groups}
 
 
-# Create a terminal node value
+
 def to_leaf_node(group):
     outcomes = [ row [ -1 ] for row in group ]
     return max(set(outcomes), key=outcomes.count)
@@ -119,28 +113,28 @@ def split(node, max_depth, min_size, depth):
         node['left'], node['right'] = to_leaf_node(left_tree), to_leaf_node(right_tree)
         return
 
-    # process left child
+
     if len(left_tree) <= min_size:
        node [ 'left' ] = to_leaf_node(left_tree)
     else:
         node [ 'left' ] = get_split_dataset(left_tree)
         split(node [ 'left' ], max_depth, min_size, depth + 1)
 
-    # process right child
+
     if len(right_tree) <= min_size:
          node [ 'right' ] = to_leaf_node(right_tree)
     else:
          node [ 'right' ] = get_split_dataset(right_tree)
          split(node [ 'right' ], max_depth, min_size, depth + 1)
 
-    # check for a no split
+
     if not left_tree or not right_tree:
         node [ 'left' ] = node [ 'right' ] = to_leaf_node(left_tree + right_tree)
         return
 
 
 
-# Build a decision tree
+
 def build_decision_TREE(train_set,max_depth,min_size):
     root_NODE = get_split_dataset(train_set)
     split(root_NODE,max_depth,min_size,1)
@@ -168,15 +162,15 @@ def decision_TREE(train_set,test_set,max_depth,min_size):
     return (predictions)
 
 
-#load and prepare data
+
 file_NAME = 'demo.csv'
 data_SET = load_CSV_FILE(file_NAME)
 
-# convert string attributes to integers
+
 for j in range(len(data_SET[0])):
     string_TO_float(data_SET,j)
 
-#implement algorithm
+
 n_Folds = int(input('Divide dataset: '))
 maximum_Depth = int(input('Enter depth of the tree: '))
 minimum_Size = int(input('Enter size of the tree: '))
