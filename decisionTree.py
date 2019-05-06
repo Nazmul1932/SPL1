@@ -94,11 +94,42 @@ def build_decision_TREE(train, max_depth, min_size):
 	return root
 
 
-def decision_tree(train, min_size, max_depth):
-	tree = build_decision_TREE(train, max_depth, min_size)
-	#print(tree)
-	#print_tree(tree)
-	return tree
+
+def predict(node, row):
+	if row[node['index']] < node['value']:
+		if isinstance(node['left'], dict):
+			return predict(node['left'], row)
+		else:
+			return node['left']
+	else:
+		if isinstance(node['right'], dict):
+			return predict(node['right'], row)
+		else:
+			return node['right']
+
+
+
+def accuracy_metric(actual, predicted):
+	correct = 0
+
+	for i in range(len(actual)):
+		if actual[i] == predicted[i]:
+			correct += 1
+
+	return correct / float(len(actual)) * 100.0
+
+
+def decision_tree(train,test,min_size, max_depth):
+	train_data_tree = build_decision_TREE(train, max_depth, min_size)
+	#print(test)
+	predictions = list()
+	for row in test:
+
+		prediction = predict(train_data_tree, row)
+		predictions.append(prediction)
+
+	return predictions
+
 
 def shuffle_data(dataset):
 	length = len(dataset)
@@ -111,19 +142,6 @@ def shuffle_data(dataset):
 	return dataset
 
 
-def feature_class_split(dataset):
-	length = len(dataset)
-	fea_len = len(dataset[0])-1
-	x = []
-	y = []
-	for i in range(length):
-		x.append(dataset[i][:-1])
-		y.append(dataset[i][fea_len])
-	#print(x)
-	#print(y)
-	return x, y
-
-
 def train_test_split(data_set, index, k=10):
 	data_set = shuffle_data(data_set)
 	train = []
@@ -134,24 +152,41 @@ def train_test_split(data_set, index, k=10):
 			test.append(data_set[i])
 		else:
 			train.append(data_set[i])
-	#print(test)
-	#print(train)
-	X_tr, Y_tr = feature_class_split(train)
-	X_ts, Y_ts = feature_class_split(test)
-	return X_tr, Y_tr, X_ts, Y_ts
+
+
+	return train,test
 
 if __name__ == '__main__':
 	file_name = 'demo.csv'
 	data_set = load_CSV_file(file_name)
-	#print("Dataset Lenght: ", len(data_set))
 
-	X_tr, Y_tr, X_te, Y_te = train_test_split(data_set, 6, k=10)
-	print(X_te)
-	max_depth = 3
-	min_size = 5
+	X_tr, X_te = train_test_split(data_set, 5, k=8)
 
-	train_score = decision_tree(X_tr,max_depth,min_size)
-	#print(train_score)
-	test_score = decision_tree(X_te,max_depth,min_size)
-	#print(test_score)
+	max_depth = 5
+	min_size = 10
+
+	score = decision_tree(X_tr,X_te,max_depth,min_size)
+	#print('Scores: %s' % score)
+	actual = [row[-1] for row in X_tr]
+	#print(actual)
+	accuracy = accuracy_metric(actual, score)
+	#print(accuracy)
+
+
+
+
+
+'''
+def feature_class_split(dataset):
+	length = len(dataset)
+	fea_len = len(dataset[0])-1
+	x = []
+	y = []
+	for i in range(length):
+		x.append(dataset[i][:-1])
+		y.append(dataset[i][fea_len])
+
+	return x, y
+
+'''
 
