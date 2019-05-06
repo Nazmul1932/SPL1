@@ -62,7 +62,7 @@ def to_terminal(group):
 	return max(set(outcomes), key=outcomes.count)
 
 
-def make_TREE(node,max_depth, min_size, depth):
+def make_TREE(node, max_depth, min_size, depth):
 	left, right = node['groups']
 	del (node['groups'])
 
@@ -89,15 +89,16 @@ def make_TREE(node,max_depth, min_size, depth):
 
 def build_decision_TREE(train, max_depth, min_size):
 	root = getting_Split_Dataset(train)
-	print(root)
+	#print(root)
 	make_TREE(root, max_depth, min_size, 1)
 	return root
 
 
-def decision_tree(train, min_size,max_depth):
+def decision_tree(train, min_size, max_depth):
 	tree = build_decision_TREE(train, max_depth, min_size)
-	print(tree)
+	#print(tree)
 	#print_tree(tree)
+	return tree
 
 def shuffle_data(dataset):
 	length = len(dataset)
@@ -118,7 +119,8 @@ def feature_class_split(dataset):
 	for i in range(length):
 		x.append(dataset[i][:-1])
 		y.append(dataset[i][fea_len])
-
+	#print(x)
+	#print(y)
 	return x, y
 
 
@@ -132,7 +134,8 @@ def train_test_split(data_set, index, k=10):
 			test.append(data_set[i])
 		else:
 			train.append(data_set[i])
-
+	#print(test)
+	#print(train)
 	X_tr, Y_tr = feature_class_split(train)
 	X_ts, Y_ts = feature_class_split(test)
 	return X_tr, Y_tr, X_ts, Y_ts
@@ -140,9 +143,15 @@ def train_test_split(data_set, index, k=10):
 if __name__ == '__main__':
 	file_name = 'demo.csv'
 	data_set = load_CSV_file(file_name)
+	#print("Dataset Lenght: ", len(data_set))
 
-
-	X_tr, Y_tr, X_te, Y_te = train_test_split(data_set, 5, k=10)
+	X_tr, Y_tr, X_te, Y_te = train_test_split(data_set, 6, k=10)
+	print(X_te)
 	max_depth = 3
 	min_size = 5
+
 	train_score = decision_tree(X_tr,max_depth,min_size)
+	#print(train_score)
+	test_score = decision_tree(X_te,max_depth,min_size)
+	#print(test_score)
+
