@@ -1,5 +1,8 @@
 from csv import reader
 import random
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report
 
 
 def load_CSV_file(file_name):
@@ -155,26 +158,24 @@ if __name__ == '__main__':
 
 
 
-	X_tr, X_te = train_test_split(data_set, 9, k=10)
+	X_tr, X_te = train_test_split(data_set, 5, k=10)
 
-	max_depth = 5
+	max_depth = 10
 	min_size = 10
 
-	score = decision_tree(X_tr,X_te,max_depth,min_size)
-	print('Scores: %s' % score)
+	predicted_score = decision_tree(X_tr,X_te,max_depth,min_size)
+
 	actual = [row[-1] for row in X_tr]
-	print(actual)
+	results = confusion_matrix(actual, predicted_score)
+	print('Confusion Matrix :')
 
-	correct = 0
-	accuracy = 0
+	print(results)
 
-	for i in range(len(actual)):
-		if actual[i] == score[i]:
-			correct += 1
+	print('Accuracy Score :', accuracy_score(actual, predicted_score))
 
 
-	accuracy = (correct / float(len(actual)) * 100.0)
-	print(accuracy)
+
+
 
 
 
