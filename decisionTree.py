@@ -9,8 +9,9 @@ def load_CSV_file(file_name):
 	return data_set
 
 
-
-
+def str2float(dataset, column):
+	for row in dataset:
+		row[column] = float(row[column].strip())
 
 def split_dataset(index, value, dataset):
 	left, right = list(), list()
@@ -108,20 +109,9 @@ def predict(node, row):
 			return node['right']
 
 
-
-def accuracy_metric(actual, predicted):
-	correct = 0
-
-	for i in range(len(actual)):
-		if actual[i] == predicted[i]:
-			correct += 1
-
-	return correct / float(len(actual)) * 100.0
-
-
-def decision_tree(train,test,min_size, max_depth):
+def decision_tree(train,test, min_size, max_depth):
 	train_data_tree = build_decision_TREE(train, max_depth, min_size)
-	#print(test)
+
 	predictions = list()
 	for row in test:
 
@@ -157,22 +147,34 @@ def train_test_split(data_set, index, k=10):
 	return train,test
 
 if __name__ == '__main__':
-	file_name = 'demo.csv'
+	file_name = 'bank.csv'
 	data_set = load_CSV_file(file_name)
 
-	X_tr, X_te = train_test_split(data_set, 5, k=8)
+	for i in range(len(data_set[0])):
+		str2float(data_set, i)
+
+
+
+	X_tr, X_te = train_test_split(data_set, 9, k=10)
 
 	max_depth = 5
 	min_size = 10
 
 	score = decision_tree(X_tr,X_te,max_depth,min_size)
-	#print('Scores: %s' % score)
+	print('Scores: %s' % score)
 	actual = [row[-1] for row in X_tr]
-	#print(actual)
-	accuracy = accuracy_metric(actual, score)
-	#print(accuracy)
+	print(actual)
+
+	correct = 0
+	accuracy = 0
+
+	for i in range(len(actual)):
+		if actual[i] == score[i]:
+			correct += 1
 
 
+	accuracy = (correct / float(len(actual)) * 100.0)
+	print(accuracy)
 
 
 
@@ -189,4 +191,3 @@ def feature_class_split(dataset):
 	return x, y
 
 '''
-
