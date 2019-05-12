@@ -1,8 +1,5 @@
 from csv import reader
 import random
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import classification_report
 
 
 def load_CSV_file(file_name):
@@ -123,7 +120,7 @@ def decision_tree(train,test, min_size, max_depth):
 
 	return predictions
 
-
+'''
 def shuffle_data(dataset):
 	length = len(dataset)
 	random.seed(30)
@@ -133,19 +130,19 @@ def shuffle_data(dataset):
 		dataset[i] = dataset[j]
 		dataset[j] = data
 	return dataset
-
+'''
 
 def train_test_split(data_set, index, k=10):
-	data_set = shuffle_data(data_set)
+	data_set = random.shuffle(data_set)
+	#print(str(data_set))
 	train = []
 	test = []
-	length = len(data_set)
-	for i in range(length):
+
+	for i in range(len(data_set)):
 		if i % k == index:
 			test.append(data_set[i])
 		else:
 			train.append(data_set[i])
-
 
 	return train,test
 
@@ -158,20 +155,14 @@ if __name__ == '__main__':
 
 
 
-	X_tr, X_te = train_test_split(data_set, 5, k=10)
+	X_tr, X_te = train_test_split(data_set, 6, k=10)
 
-	max_depth = 10
+	max_depth = 5
 	min_size = 10
 
 	predicted_score = decision_tree(X_tr,X_te,max_depth,min_size)
 
 	actual = [row[-1] for row in X_tr]
-	results = confusion_matrix(actual, predicted_score)
-	print('Confusion Matrix :')
-
-	print(results)
-
-	print('Accuracy Score :', accuracy_score(actual, predicted_score))
 
 
 
