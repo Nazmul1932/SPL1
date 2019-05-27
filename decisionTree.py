@@ -15,17 +15,7 @@ def str2float(dataset, column):
         row[column] = float(row[column].strip())
 
 
-def count_class_wise_dist(Y, classes):
-    prob = [0] * len(classes)
-    if len(Y) == 0:
-        return prob
 
-    index = 0
-    for class_val in classes:
-        prob[index] = Y.count(class_val) / len(Y)
-        index = index + 1
-
-    return prob
 
 
 def claculate_entropy(prob):
@@ -69,7 +59,17 @@ def split_dataset(index, value, X, Y):
 
     return left, right, Y_left, Y_right
 
+def find_decision(Y):
+    unique_class = set(Y)
+    label = -1
+    max_count = -1
 
+    for class_val in unique_class:
+        if Y.count(class_val) > max_count:
+            label = class_val
+            max_count = Y.count(class_val)
+
+    return label
 
 
 
@@ -227,14 +227,3 @@ if __name__ == '__main__':
         correct = correct + conf_mat[i][i]
 
     print('Accuracy: ' + str(correct/total_sample))
-
-
-
-
-
-
-
-'''
-
-
-'''
