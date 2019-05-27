@@ -20,16 +20,24 @@ for i in words:
         result = ''.join(j for j in text if not j.isdigit())
         word = result.split()
         count = Counter(word)
-        len_of_dataset = len(count)
-
 
         column = []
         for k, word in enumerate(sorted(count, key=count.get, reverse=True)[:500]):
             column = (count[word])
             #print('%s-%s' % (word,count[word]))
-            data = []
+            for line in file.readlines():
+                if word[0] in line:
+                    print('exist')
+    break
+
+
+
+
+
+'''
+data = []
             feature_word = [word]
-            #print(feature_word)
+            #print(len(feature_word)
             for line in len_of_dataset:
                 arr = [0]*len(feature_word)
                 #print(arr)
@@ -40,3 +48,4 @@ for i in words:
                     index = index + 1
                 data.append(arr)
     break
+'''
