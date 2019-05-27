@@ -21,10 +21,15 @@ for i in words:
         word = result.split()
         count = Counter(word)
         len_of_dataset = len(count)
+       
 
         column = []
         for k, word in enumerate(sorted(count, key=count.get, reverse=True)[:500]):
             column = (count[word])
-        rows, cols = (len_of_dataset, column)
+            #print('%s-%s' % (word,count[word]))
+            matrix = [14019][500]
+            for l in range(14019):
+                for m in range(500):
+                    
 
     break
