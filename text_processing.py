@@ -21,15 +21,22 @@ for i in words:
         word = result.split()
         count = Counter(word)
         len_of_dataset = len(count)
-       
+
 
         column = []
         for k, word in enumerate(sorted(count, key=count.get, reverse=True)[:500]):
             column = (count[word])
             #print('%s-%s' % (word,count[word]))
-            matrix = [14019][500]
-            for l in range(14019):
-                for m in range(500):
-                    
-
+            data = []
+            feature_word = [word]
+            #print(feature_word)
+            for line in len_of_dataset:
+                arr = [0]*len(feature_word)
+                #print(arr)
+                index = 0
+                for w in feature_word:
+                    c = line.count(w)
+                    arr[index] = c
+                    index = index + 1
+                data.append(arr)
     break
