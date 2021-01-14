@@ -1,6 +1,0 @@
- It is hard to remember the IP addresses of all the websites we want to access; hence we use domain names for the sites. On the other hand, the computer accesses the sites based on the IP addresses. Hence it is important to translate the domain names into IP addresses. This is where the DNS (Domain Name Space) came into the picture. So, when you visit a webpage in a browser, your system utilizes DNS to retrieve the IP address of the website.
-
-
-DNS is a system, which facilitates the internet to function. The main function of the DNS involves taking the domain name which user enters into their browser, and convert it into the numeric internet protocol address, which system understand. The DNS includes the directory of domain names.
-
-
